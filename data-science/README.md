@@ -24,7 +24,13 @@ Se puede definir DS, como el proceso desde la recolección de datos (big data) h
 
 ### ¿Qué es machine learning?
 También se conoce como aprendizaje automático, es la técnica que permite el uso de un software para predecir resultados, detección de patrones y con base en ello tomar decisiones o efectuar acciones.
+Ejemplos de uso de ML:
+
+ 1. Detección de fraudes, a partir del comportamiento de usuarios en transacciones financieras, ML detecta patrones de usuarios que buscan hacer fraude.
+ 2. Búsqueda Web, a partir de la búsqueda o uso de la web, se detectan patrones de acciones que el usuario ejecuta y con base en ello, darle al usuario anuncios publicitarios que le pueden interesar.
+ 3. Anuncios en tiempo real, a medida que haces una compra, te arroja recomendaciones de otros productos que otros usuarios que han comprado lo que compraste inicialmente, también han llevado.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU3NDA2MjIsNjI0OTc1Mjc5LC0xMT
-gzNzQ2NDQ3XX0=
+eyJoaXN0b3J5IjpbMTQyNzg0MjM5NywtMTU0NTc0MDYyMiw2Mj
+Q5NzUyNzksLTExODM3NDY0NDddfQ==
 -->
