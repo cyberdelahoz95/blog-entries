@@ -21,6 +21,9 @@ Se puede definir DS, como el proceso desde la recolección de datos (big data) h
  - De navegación web: Son datos del usuario que se obtienen a través de cookies en los navegadores.
  - Machine 2 Machine: Son las que se obtienen sin intervención humana, tal vez mediante sensores de todo tipo o sistemas GPS.
  - Biométricos: Información en la sangre, huella dactilar, pupila. Este tipo de datos abre un debate ético y se debe utilizar con cuidado.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0OTc1Mjc5LC0xMTgzNzQ2NDQ3XX0=
+eyJoaXN0b3J5IjpbNzEzODk3NzM5LDYyNDk3NTI3OSwtMTE4Mz
+c0NjQ0N119
 -->
