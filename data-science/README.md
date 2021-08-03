@@ -36,10 +36,10 @@ Es un tipo de aprendizaje automático que interpreta datos más complejos, tales
 ### ¿Cuáles son los roles en DS?
  - **Ingeniero de Datos o Arquitecto de Datos.** Se encarga de construir soluciones para la obtención de datos. Este rol puede incluir el desarrollo de APIs con conexión a bases de datos asi como a la construcción de consultas SQL para la inserción de datos. En general, este rol se encarga principalmente de facilitar la obtención de datos a través de soluciones de software. Implementa ETLs.
   - **Analista BI**. Se encarga de la interpretación de datos actuales, en otras palabras se enfoca en interpretar la información presente. Su rol abarca la extracción de datos, a través de consultas SQL y presentar reportes en forma de dashboard, tal vez utilizando herramientas tales como Power BI y Excel. El análiste crea las consultas SQL y sus reportes de tal manera que sean parametrizables y se pueda repetir la consulta fácilmente en un futuro.
-  - **Data Scientist**. Utiliza los datos para estimar el futuro, incluso intentar prede
+  - **Data Scientist**. Utiliza los datos para estimar el futuro, incluso intentar predecirlo. Para lograr este propósito se vale de modelos estadísticos de inferencia asi como de otros modelos basados en matemáticas. El Data Scientis se valde machine learning para implementar estos modelos de tal forma que la ejecución de lo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0MTE2NjAzLDEyNTA2MDg4OTcsMTQyNz
-g0MjM5NywtMTU0NTc0MDYyMiw2MjQ5NzUyNzksLTExODM3NDY0
-NDddfQ==
+eyJoaXN0b3J5IjpbLTE1MDc4NjY2NzUsMTI1MDYwODg5NywxND
+I3ODQyMzk3LC0xNTQ1NzQwNjIyLDYyNDk3NTI3OSwtMTE4Mzc0
+NjQ0N119
 -->
