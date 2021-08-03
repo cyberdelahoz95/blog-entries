@@ -35,10 +35,10 @@ Ejemplos de uso de ML:
 Es un tipo de aprendizaje automático que interpreta datos más complejos, tales como imágenes fijas o en movimiento y sonidos. Estos datos por lo general los recibe el software a través de un flujo continuo de información y requiere una mayor capacidad de procesamiento y precisión en el resultado del cálculo de los modelos.
 ### ¿Cuáles son los roles en DS?
  - **Ingeniero de Datos o Arquitecto de Datos.** Se encarga de construir soluciones para la obtención de datos. Este rol puede incluir el desarrollo de APIs con conexión a bases de datos asi como a la construcción de consultas SQL para la inserción de datos. En general, este rol se encarga principalmente de facilitar la obtención de datos a través de soluciones de software. Implementa ETLs.
-  - **Analista BI**. Se encarga de la interpretación de datos actuales, en otras palabras se enfoca en interpretar la información presente. Su rol abarca la extracción de datos, a través de consultas SQL y presentar
+  - **Analista BI**. Se encarga de la interpretación de datos actuales, en otras palabras se enfoca en interpretar la información presente. Su rol abarca la extracción de datos, a través de consultas SQL y presentar reportes en forma de dashboard, tal vez utilizando herramientas tales como Power BI y Excel. El análiste crea las consultas SQL y sus reportes de tal manera que sean parametrizables y se pueda repetir la consulta fácilmente en un futuro.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODE0NTE4MywxMjUwNjA4ODk3LDE0Mj
-c4NDIzOTcsLTE1NDU3NDA2MjIsNjI0OTc1Mjc5LC0xMTgzNzQ2
-NDQ3XX0=
+eyJoaXN0b3J5IjpbMTk1MjMxNjc4LDEyNTA2MDg4OTcsMTQyNz
+g0MjM5NywtMTU0NTc0MDYyMiw2MjQ5NzUyNzksLTExODM3NDY0
+NDddfQ==
 -->
