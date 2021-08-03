@@ -16,10 +16,8 @@ Pero también se puede obtener información valiosa en forma de texto o voz, a t
  - De las personas: Se refiere a los gustos, amistades, etc. Estos permiten analizar comportamientos en masa.
  - De transacciones: Pueden ser monetarias (tarjetas crédito, débito, etc.) y no monetarias (llamadas telefónicas, etc.).
  - De navegación web: Son datos del usuario que se obtienen a través de cookies en los navegadores.
- - 
-Machine 2 Machine: Son las que se obtienen sin intervención humana, tal vez mediante sensores de todo tipo o sistemas GPS.
-
-Biométricos: Información en la sangre, huella dactilar, pupila. Este tipo de datos abre un debate ético y se debe utilizar con cuidado.
+ - Machine 2 Machine: Son las que se obtienen sin intervención humana, tal vez mediante sensores de todo tipo o sistemas GPS.
+ - Biométricos: Información en la sangre, huella dactilar, pupila. Este tipo de datos abre un debate ético y se debe utilizar con cuidado.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDUzMDE4NjJdfQ==
+eyJoaXN0b3J5IjpbLTE4MDc4Nzc1NTFdfQ==
 -->
