@@ -37,10 +37,10 @@ Es un tipo de aprendizaje automático que interpreta datos más complejos, tales
  - **Ingeniero de Datos o Arquitecto de Datos.** Se encarga de construir soluciones para la obtención de datos. Este rol puede incluir el desarrollo de APIs con conexión a bases de datos asi como a la construcción de consultas SQL para la inserción de datos. En general, este rol se encarga principalmente de facilitar la obtención de datos a través de soluciones de software. Implementa ETLs.
   - **Analista BI**. Se encarga de la interpretación de datos actuales, en otras palabras se enfoca en interpretar la información presente. Su rol abarca la extracción de datos, a través de consultas SQL y presentar reportes en forma de dashboard, tal vez utilizando herramientas tales como Power BI y Excel. El análiste crea las consultas SQL y sus reportes de tal manera que sean parametrizables y se pueda repetir la consulta fácilmente en un futuro.
   - **Data Scientist**. Utiliza los datos para estimar el futuro, incluso intentar predecirlo. Para lograr este propósito se vale de modelos estadísticos de inferencia asi como de otros modelos basados en matemáticas. El Data Scientis se valde machine learning para implementar estos modelos de tal forma que la ejecución de los mismos sea automatizada. Utiliza lenguajes tales como python y R.
-  - **Data Translator** Es un rol tipo gerencial o de dirección que tiene un conocimiento transversal a todos los demás roles, y su principal fortaleza o característica es un
+  - **Data Translator** Es un rol tipo gerencial o de dirección que tiene un conocimiento transversal a todos los demás roles, y su principal fortaleza o característica es un conocimiento profundo de la lógica del negocio.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzk5ODA5MSwtODk2NTM3MDQ1LDEyNT
+eyJoaXN0b3J5IjpbLTQzNjkwMTE4OSwtODk2NTM3MDQ1LDEyNT
 A2MDg4OTcsMTQyNzg0MjM5NywtMTU0NTc0MDYyMiw2MjQ5NzUy
 NzksLTExODM3NDY0NDddfQ==
 -->
