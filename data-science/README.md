@@ -29,9 +29,9 @@ Ejemplos de uso de ML:
  1. Detección de fraudes, a partir del comportamiento de usuarios en transacciones financieras, ML detecta patrones de usuarios que buscan hacer fraude.
  2. Búsqueda Web, a partir de la búsqueda o uso de la web, se detectan patrones de acciones que el usuario ejecuta y con base en ello, darle al usuario anuncios publicitarios que le pueden interesar.
  3. Anuncios en tiempo real, a medida que haces una compra, te arroja recomendaciones de otros productos que otros usuarios que han comprado lo que compraste inicialmente, también han llevado.
- 4. 
-
+ 4. Análisis de Textos, se exploran mensajes escritos que generan los usuarios.
+ 5. Next Best Action, entender el journey del cliente o el ciclo de vida del usuario y con base en entender en qué fase se encuentra, tratar de incentivarlo para que de el siguiente paso ideal en el customer Journey o en el ciclo de vida del usuario.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0Mjc2ODA1LDE0Mjc4NDIzOTcsLTE1ND
-U3NDA2MjIsNjI0OTc1Mjc5LC0xMTgzNzQ2NDQ3XX0=
+eyJoaXN0b3J5IjpbMTI1MDYwODg5NywxNDI3ODQyMzk3LC0xNT
+Q1NzQwNjIyLDYyNDk3NTI3OSwtMTE4Mzc0NjQ0N119
 -->
