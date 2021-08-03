@@ -3,7 +3,7 @@
 # ANALISIS DE NEGOCIOS PARA CIENCIAS DE DATOS
 ## Introducción
 
-### ¿qué es Big Data?
+### ¿Qué es Big Data?
 
 Hace referencia a grandes volúmenes de información. Información que representa un valor empresarial y que además es variada en su contenido y formato.
 
@@ -19,5 +19,5 @@ Pero también se puede obtener información valiosa en forma de texto o voz, a t
  - Machine 2 Machine: Son las que se obtienen sin intervención humana, tal vez mediante sensores de todo tipo o sistemas GPS.
  - Biométricos: Información en la sangre, huella dactilar, pupila. Este tipo de datos abre un debate ético y se debe utilizar con cuidado.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDc4Nzc1NTFdfQ==
+eyJoaXN0b3J5IjpbLTExODM3NDY0NDddfQ==
 -->
