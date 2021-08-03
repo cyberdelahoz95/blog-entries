@@ -34,10 +34,12 @@ Ejemplos de uso de ML:
 ### ¿Qué es deep learning?
 Es un tipo de aprendizaje automático que interpreta datos más complejos, tales como imágenes fijas o en movimiento y sonidos. Estos datos por lo general los recibe el software a través de un flujo continuo de información y requiere una mayor capacidad de procesamiento y precisión en el resultado del cálculo de los modelos.
 ### ¿Cuáles son los roles en DS?
- **- Ingeniero de Datos o Arquitecto de Datos.** Se encarga de construir soluciones para la obtención de datos. Este rol puede incluir el desarrollo de APIs con conexión a bases de datos asi como a la construcción de consultas SQL para la 
+ **- Ingeniero de Datos o Arquitecto de Datos.** Se encarga de construir soluciones para la obtención de datos. Este rol puede incluir el desarrollo de APIs con conexión a bases de datos asi como a la construcción de consultas SQL para la inserción de datos. En general, este rol se encarga principalmente de facilitar la obtención de datos a través de soluciones de software. Implementa ETLs.
+ 
+ - List item
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzUxMDMxNjksMTI1MDYwODg5NywxND
+eyJoaXN0b3J5IjpbLTEyMjY4Njk5NjUsMTI1MDYwODg5NywxND
 I3ODQyMzk3LC0xNTQ1NzQwNjIyLDYyNDk3NTI3OSwtMTE4Mzc0
 NjQ0N119
 -->
