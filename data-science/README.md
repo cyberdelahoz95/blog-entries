@@ -31,7 +31,11 @@ Ejemplos de uso de ML:
  3. Anuncios en tiempo real, a medida que haces una compra, te arroja recomendaciones de otros productos que otros usuarios que han comprado lo que compraste inicialmente, también han llevado.
  4. Análisis de Textos, se exploran mensajes escritos que generan los usuarios.
  5. Next Best Action, entender el journey del cliente o el ciclo de vida del usuario y con base en entender en qué fase se encuentra, tratar de incentivarlo para que de el siguiente paso ideal en el customer Journey o en el ciclo de vida del usuario.
+### ¿Qué es deep learning?
+Es un tipo de aprendizaje automático que interpreta datos más complejos, tales como imágenes fijas o en movimiento y sonidos. Estos datos por lo general los recibe el software a través de un flujo continuo de información y requiere una mayor capacidad de procesamiento y precisión en el resultado del cálculo de los modelos.
+### ¿Cuáles son los roles en DS?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDYwODg5NywxNDI3ODQyMzk3LC0xNT
-Q1NzQwNjIyLDYyNDk3NTI3OSwtMTE4Mzc0NjQ0N119
+eyJoaXN0b3J5IjpbLTkyMjY2MjE5LDEyNTA2MDg4OTcsMTQyNz
+g0MjM5NywtMTU0NTc0MDYyMiw2MjQ5NzUyNzksLTExODM3NDY0
+NDddfQ==
 -->
