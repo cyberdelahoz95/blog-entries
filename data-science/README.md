@@ -22,8 +22,9 @@ Se puede definir DS, como el proceso desde la recolección de datos (big data) h
  - Machine 2 Machine: Son las que se obtienen sin intervención humana, tal vez mediante sensores de todo tipo o sistemas GPS.
  - Biométricos: Información en la sangre, huella dactilar, pupila. Este tipo de datos abre un debate ético y se debe utilizar con cuidado.
 
-
+### ¿Qué es machine learning?
+También se conoce como aprendizaje automático, es la técnica que permite el uso de un software para predecir resultados, detección de patrones y con base en ello tomar decisiones o efectuar acciones.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEzODk3NzM5LDYyNDk3NTI3OSwtMTE4Mz
-c0NjQ0N119
+eyJoaXN0b3J5IjpbLTE1NDU3NDA2MjIsNjI0OTc1Mjc5LC0xMT
+gzNzQ2NDQ3XX0=
 -->
