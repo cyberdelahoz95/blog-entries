@@ -5,7 +5,7 @@
  - **Alcance:** Queremos utilizar el método para solucionar el problema, en otro ámbitos de la empresa, tal vez ámbitos geográficos o de las áreas de la empresa. Para poder lograr este objetivo, la solución debe permitir parametrizar o adaptar su ejecución a los diferentes ambientes en los que se desea aplicar.
 ## Cómo se plantea un problema y una solución
 
-
+Una hipótesis debe surgir de un problema o potencial problema que se esté percibiendo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1NTQ4Njg2XX0=
+eyJoaXN0b3J5IjpbMTc3MDY4MjAwMCw3NjU1NDg2ODZdfQ==
 -->
