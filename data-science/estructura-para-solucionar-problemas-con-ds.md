@@ -19,10 +19,11 @@ Una hipótesis debe surgir de un problema o potencial problema que se esté perc
 
 ### Mecanismos de análisis de datos
 
- - **Análisis Cuantitativo:** 
+ - **Análisis Cuantitativo:** se realizan mediciones y pasamos a categorizar o clasificar la información, esto se logra mediante queries de SQL. Idealmente este proceso se hace lo más dinámico posible (queries parametrizable, por ejemplo, por mes o año).
+ - **Análisis Cualitativo:**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTkyMzU2NDYsLTE0OTYxMjkzMzQsLT
+eyJoaXN0b3J5IjpbLTE1NTAxMTgxOTcsLTE0OTYxMjkzMzQsLT
 E2NTcyNDczMjcsMTAwMTQzNzE2LDY0OTAxOTAyNCw5MjU3Mzg0
 NDgsMTc3MDY4MjAwMCw3NjU1NDg2ODZdfQ==
 -->
