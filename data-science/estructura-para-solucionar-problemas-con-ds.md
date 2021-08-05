@@ -13,10 +13,11 @@ Una hipótesis debe surgir de un problema o potencial problema que se esté perc
  -- Pieza dañada
  -- Mala configuración
  -- Mala praxis por parte del operario
+ -- Fallo eléctrico
  
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTU1MTAyMjAsNjQ5MDE5MDI0LDkyNT
-czODQ0OCwxNzcwNjgyMDAwLDc2NTU0ODY4Nl19
+eyJoaXN0b3J5IjpbMTAwMTQzNzE2LDY0OTAxOTAyNCw5MjU3Mz
+g0NDgsMTc3MDY4MjAwMCw3NjU1NDg2ODZdfQ==
 -->
