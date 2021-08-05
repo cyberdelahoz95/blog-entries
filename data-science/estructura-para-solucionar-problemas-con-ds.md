@@ -25,11 +25,11 @@ Una hipótesis debe surgir de un problema o potencial problema que se esté perc
  - **Fusión cuantitativa y cualitativa:** En esta actividad se comparan los resultados de cada análisis (cuantitativa y cualitativa). La comparación se realiza al agregar los datos de ambos análisis en una matriz. Pasamos a considerar a partir de esta matriz, qué podemos percibir y obtenemos conclusiones de ello.
  - **Detección de factores determinantes:** Con los pasos anteriores, buscamos los factores determinantes que representan causas o motivaciones para el aparecimiento del problema planteado el hipótesis. Con estos factores identificados, se generan reportes con filtros basados en los factores encontrados.
 
-Al finalizar estos análisis, es posible
+Al finalizar estos análisis, es posible identificar acciones para la prevención, mitigación o solución del problema. Es importante que al aplicar estas acciones, se valide su efectividad y se itera con base en los resultados. Una buena forma de validar, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODI2Mjg5Niw0NDkyMDE3NDAsLTE1NT
-AxMTgxOTcsLTE0OTYxMjkzMzQsLTE2NTcyNDczMjcsMTAwMTQz
-NzE2LDY0OTAxOTAyNCw5MjU3Mzg0NDgsMTc3MDY4MjAwMCw3Nj
-U1NDg2ODZdfQ==
+eyJoaXN0b3J5IjpbNjM3MDUwNzQ4LDQ0OTIwMTc0MCwtMTU1MD
+ExODE5NywtMTQ5NjEyOTMzNCwtMTY1NzI0NzMyNywxMDAxNDM3
+MTYsNjQ5MDE5MDI0LDkyNTczODQ0OCwxNzcwNjgyMDAwLDc2NT
+U0ODY4Nl19
 -->
