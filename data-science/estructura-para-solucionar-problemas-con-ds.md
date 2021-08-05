@@ -17,10 +17,11 @@ Una hipótesis debe surgir de un problema o potencial problema que se esté perc
  
  - **Cómo:** ¿cómo diseñamos un mecanismo para validar la hipótesis y obtener una solución? En esta fase se ejecutan diferentes **mecanismos de análisis de datos**
 
- 
+### Mecanismos de análisis de datos
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTcyNDczMjcsMTAwMTQzNzE2LDY0OT
-AxOTAyNCw5MjU3Mzg0NDgsMTc3MDY4MjAwMCw3NjU1NDg2ODZd
-fQ==
+eyJoaXN0b3J5IjpbLTE0OTYxMjkzMzQsLTE2NTcyNDczMjcsMT
+AwMTQzNzE2LDY0OTAxOTAyNCw5MjU3Mzg0NDgsMTc3MDY4MjAw
+MCw3NjU1NDg2ODZdfQ==
 -->
