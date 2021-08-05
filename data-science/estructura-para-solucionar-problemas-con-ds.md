@@ -19,10 +19,10 @@ Una hipótesis debe surgir de un problema o potencial problema que se esté perc
 
 ### Mecanismos de análisis de datos
 
- - List item
+ - **Análisis Cuantitativo:** 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDkzNTA4MjYsLTE0OTYxMjkzMzQsLT
+eyJoaXN0b3J5IjpbLTIwMTkyMzU2NDYsLTE0OTYxMjkzMzQsLT
 E2NTcyNDczMjcsMTAwMTQzNzE2LDY0OTAxOTAyNCw5MjU3Mzg0
 NDgsMTc3MDY4MjAwMCw3NjU1NDg2ODZdfQ==
 -->
