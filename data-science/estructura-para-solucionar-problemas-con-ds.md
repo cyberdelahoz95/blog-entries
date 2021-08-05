@@ -23,10 +23,10 @@ Una hipótesis debe surgir de un problema o potencial problema que se esté perc
  - **Análisis Cualitativo:** se intenta clusterizar o agrupar por motivos o casusas del problema. En general se busca desglosar cualitativamente, los factores o variables determinantes en la búsqueda de la solución. Para cada cluster, se profundiza en la obtención de dichos factores previamente mencionados, por ejemplo, un factor determinante pude ser la geolocalización. En otras palabras, para cada grupo se desagregan los registros y es identifican los motivos más sobresalientes. También se trata de identificar palabras relevantes. Cabe mencionar que este análisis no siempre se puede aplicar al caso de negocio.
  - **Minería de datos:** Es un tipo de exploración de datos que se enfoca en detección de datos a través de la revisión de mensajes de texto disponibles en los diferentes canales de comunicación de la empresa. Fuentes de texto para realizar minería Canales de redes sociales Facturas y otros documentos.
  - **Fusión cuantitativa y cualitativa:** En esta actividad se comparan los resultados de cada análisis (cuantitativa y cualitativa). La comparación se realiza al agregar los datos de ambos análisis en una matriz. Pasamos a considerar a partir de esta matriz, qué podemos percibir y obtenemos conclusiones de ello.
- - **Detección de factores determinantes:**
+ - **Detección de factores determinantes:** Con los pasos anteriores, buscamos los factores determinantes que 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxNzU3MDI1LDQ0OTIwMTc0MCwtMTU1MD
+eyJoaXN0b3J5IjpbLTM3NzE0MzU3LDQ0OTIwMTc0MCwtMTU1MD
 ExODE5NywtMTQ5NjEyOTMzNCwtMTY1NzI0NzMyNywxMDAxNDM3
 MTYsNjQ5MDE5MDI0LDkyNTczODQ0OCwxNzcwNjgyMDAwLDc2NT
 U0ODY4Nl19
