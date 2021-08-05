@@ -15,12 +15,12 @@ Una hipótesis debe surgir de un problema o potencial problema que se esté perc
  -- Mala praxis por parte del operario
  -- Fallo eléctrico
  
- - **Cómo:** ¿cómo diseñamos una solución 
+ - **Cómo:** ¿cómo diseñamos un mecanismo para validar la hipótesis y obtener una solución? En esta fase se ejecutan diferentes mecanismos de análisis de datos
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2MzU1NTY0LDEwMDE0MzcxNiw2NDkwMT
-kwMjQsOTI1NzM4NDQ4LDE3NzA2ODIwMDAsNzY1NTQ4Njg2XX0=
+eyJoaXN0b3J5IjpbLTc0NDUwMDMxOSwxMDAxNDM3MTYsNjQ5MD
+E5MDI0LDkyNTczODQ0OCwxNzcwNjgyMDAwLDc2NTU0ODY4Nl19
 
 -->
