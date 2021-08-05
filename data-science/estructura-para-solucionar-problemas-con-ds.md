@@ -21,11 +21,11 @@ Una hipótesis debe surgir de un problema o potencial problema que se esté perc
 
  - **Análisis Cuantitativo:** se realizan mediciones y pasamos a categorizar o clasificar la información, esto se logra mediante queries de SQL. Idealmente este proceso se hace lo más dinámico posible (queries parametrizable, por ejemplo, por mes o año).
  - **Análisis Cualitativo:** se intenta clusterizar o agrupar por motivos o casusas del problema. En general se busca desglosar cualitativamente, los factores o variables determinantes en la búsqueda de la solución. Para cada cluster, se profundiza en la obtención de dichos factores previamente mencionados, por ejemplo, un factor determinante pude ser la geolocalización. En otras palabras, para cada grupo se desagregan los registros y es identifican los motivos más sobresalientes. También se trata de identificar palabras relevantes. Cabe mencionar que este análisis no siempre se puede aplicar al caso de negocio.
- - Minería de datos:
+ - **Minería de datos:** Es un tipo de exploración de datos que se enfoca en detección de datos a través de la revisión de mensajes de texto disponibles en los diferentes canales de comunicación de la empresa. Fuentes de texto para realizar minería Canales de redes sociales Facturas y otros documentos.
+ - **Fusión cuantitativa y cualitativa:** 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU2NDEwNjgsLTE1NTAxMTgxOTcsLT
-E0OTYxMjkzMzQsLTE2NTcyNDczMjcsMTAwMTQzNzE2LDY0OTAx
-OTAyNCw5MjU3Mzg0NDgsMTc3MDY4MjAwMCw3NjU1NDg2ODZdfQ
-==
+eyJoaXN0b3J5IjpbNDQ5MjAxNzQwLC0xNTUwMTE4MTk3LC0xND
+k2MTI5MzM0LC0xNjU3MjQ3MzI3LDEwMDE0MzcxNiw2NDkwMTkw
+MjQsOTI1NzM4NDQ4LDE3NzA2ODIwMDAsNzY1NTQ4Njg2XX0=
 -->
