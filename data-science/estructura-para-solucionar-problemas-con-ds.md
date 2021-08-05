@@ -7,9 +7,9 @@
 
 Una hipótesis debe surgir de un problema o potencial problema que se esté percibiendo. A partir de la hipótesis, estructuramos el caso de negocio de la siguiente manera:
 
- - List item
+ -**Qué:** ¿Qué problema se tiene?, aquí planteamos un problema puntual, por ejemplo: "
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTkwNDA2ODEsOTI1NzM4NDQ4LDE3Nz
-A2ODIwMDAsNzY1NTQ4Njg2XX0=
+eyJoaXN0b3J5IjpbNjQ5MDE5MDI0LDkyNTczODQ0OCwxNzcwNj
+gyMDAwLDc2NTU0ODY4Nl19
 -->
