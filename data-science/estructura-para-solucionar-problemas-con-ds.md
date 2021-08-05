@@ -9,9 +9,12 @@ Una hipótesis debe surgir de un problema o potencial problema que se esté perc
 
  - **Qué:** ¿Qué problema se tiene?, aquí planteamos un problema puntual, por ejemplo: "¿por qué están cayendo las ventas? ¿Por qué está tomando más tiempo el proceso de producción? ¿puedo hacer que la máquina se dañe con menos frecuencia?"
  
-- **¿Por qué?:** ¿Por qué se tiene el problema? en otras palabras, se pretende entender las posibles motivaciones o causas del problema. Esto se logra categorizando los datos, y hacerlo de tal manera que se tenga un número finito y lo más reducido posible de categorías. Por  
+ - **¿Por qué?:** ¿Por qué se tiene el problema? en otras palabras, se pretende entender las posibles motivaciones o causas del problema. Esto se logra categorizando los datos, y hacerlo de tal manera que se tenga un número finito y lo más reducido posible de categorías. Por ejemplo, si estoy investigando las posibles causas para que una máquina se dañe, algunas causas o motivaciones pueden ser:
+ --- Pieza defe
+
+ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDkxMDMxNzAsNjQ5MDE5MDI0LDkyNT
-czODQ0OCwxNzcwNjgyMDAwLDc2NTU0ODY4Nl19
+eyJoaXN0b3J5IjpbMjAwODM5NTA5OCw2NDkwMTkwMjQsOTI1Nz
+M4NDQ4LDE3NzA2ODIwMDAsNzY1NTQ4Njg2XX0=
 -->
