@@ -30,17 +30,13 @@ Al finalizar estos análisis, es posible identificar acciones para la prevenció
 Algunos algoritmos y técnicas usadas en la exploración de datos y predicción de comportamientos futuros
 
  - Minerías de datos, para clasificación cualitativa.
-
-<![if !supportLists]>2. <![endif]>Correlaciones entre datos cuantitativos y cualitativos
-
-<![if !supportLists]>3. <![endif]>Arboles de decisión y teoría de juegos para predecir y tomar decisiones.
-
-<![if !supportLists]>4. <![endif]>Validación bayesiana, sirve para identificar patrones que se comportan de manera conjunta, en otras palabras, cuál es la probabilidad de que dado un evento A, suceda un evento B.
-
-<![if !supportLists]>5. <![endif]>Cadenas de Montecarlo, sirven para determinar probabilidades concatenadas.
+ - Correlaciones entre datos cuantitativos y cualitativos.
+ - Arboles de decisión y teoría de juegos para predecir y tomar decisiones.
+ - Validación bayesiana, sirve para identificar patrones que se comportan de manera conjunta, en otras palabras, cuál es la probabilidad de que dado un evento A, suceda un evento B.
+ - Cadenas de Montecarlo, sirven para determinar probabilidades concatenadas.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzAwNTY4NzQsNDQ5MjAxNzQwLC0xNT
-UwMTE4MTk3LC0xNDk2MTI5MzM0LC0xNjU3MjQ3MzI3LDEwMDE0
-MzcxNiw2NDkwMTkwMjQsOTI1NzM4NDQ4LDE3NzA2ODIwMDAsNz
-Y1NTQ4Njg2XX0=
+eyJoaXN0b3J5IjpbLTczODU0OTE2MCw0NDkyMDE3NDAsLTE1NT
+AxMTgxOTcsLTE0OTYxMjkzMzQsLTE2NTcyNDczMjcsMTAwMTQz
+NzE2LDY0OTAxOTAyNCw5MjU3Mzg0NDgsMTc3MDY4MjAwMCw3Nj
+U1NDg2ODZdfQ==
 -->
