@@ -25,12 +25,10 @@ Una hipótesis debe surgir de un problema o potencial problema que se esté perc
  - **Fusión cuantitativa y cualitativa:** En esta actividad se comparan los resultados de cada análisis (cuantitativa y cualitativa). La comparación se realiza al agregar los datos de ambos análisis en una matriz. Pasamos a considerar a partir de esta matriz, qué podemos percibir y obtenemos conclusiones de ello.
  - **Detección de factores determinantes:** Con los pasos anteriores, buscamos los factores determinantes que representan causas o motivaciones para el aparecimiento del problema planteado el hipótesis. Con estos factores identificados, se generan reportes con filtros basados en los factores encontrados.
 
-Al finalizar estos análisis, es posible identificar acciones para la prevención, mitigación o solución del problema. Es importante que al aplicar estas acciones, se valide su efectividad y se itera con base en los resultados. Una buena forma de **validar** las acciones ejecutadas es utilizar la **técnica A/B testing.**
+Al finalizar estos análisis, es posible identificar acciones para la prevención, mitigación o solución del problema. Es importante que al aplicar estas acciones, se valide su efectividad y se itera con base en los resultados. Una buena forma de **validar** las acciones ejecutadas es utilizar la **técnica A/B testing**, donde A y B son posibles soluciones. Se implementan las 2 soluciones y se validan sus resultados para ver cuál es la más exitosa.
+
 Algunos ejemplos de acciones correctivas a partir de los análisis realizados son:
-
  - Detección automatizada de registros de interés, por ejemplo si se trata de identificación de usuarios “problemáticos” una vez se detecta un usuarios “ofensivo” se taggea en la base de datos para hacerle seguimiento.
-
-Validación mediante pruebas AB, donde A y B son posibles soluciones. Se implementan las 2 soluciones y se validan sus resultados para ver cuál es la más exitosa.
 
 Algunos algoritmos y técnicas usadas en la exploración de datos y predicción de comportamientos futuros
 
@@ -40,8 +38,8 @@ Algunos algoritmos y técnicas usadas en la exploración de datos y predicción 
  - Validación bayesiana, sirve para identificar patrones que se comportan de manera conjunta, en otras palabras, cuál es la probabilidad de que dado un evento A, suceda un evento B.
  - Cadenas de Montecarlo, sirven para determinar probabilidades concatenadas.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxNzQ1MTUsLTczODU0OTE2MCw0NDkyMD
-E3NDAsLTE1NTAxMTgxOTcsLTE0OTYxMjkzMzQsLTE2NTcyNDcz
-MjcsMTAwMTQzNzE2LDY0OTAxOTAyNCw5MjU3Mzg0NDgsMTc3MD
-Y4MjAwMCw3NjU1NDg2ODZdfQ==
+eyJoaXN0b3J5IjpbLTM5MzI0NTgyMywtNzM4NTQ5MTYwLDQ0OT
+IwMTc0MCwtMTU1MDExODE5NywtMTQ5NjEyOTMzNCwtMTY1NzI0
+NzMyNywxMDAxNDM3MTYsNjQ5MDE5MDI0LDkyNTczODQ0OCwxNz
+cwNjgyMDAwLDc2NTU0ODY4Nl19
 -->
