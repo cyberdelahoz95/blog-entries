@@ -7,11 +7,11 @@
 
 Una hipótesis debe surgir de un problema o potencial problema que se esté percibiendo. A partir de la hipótesis, estructuramos el caso de negocio de la siguiente manera:
 
- -**Qué:** ¿Qué problema se tiene?, aquí planteamos un problema puntual, por ejemplo: "¿por qué están cayendo las ventas? ¿Por qué está tomando más tiempo el proceso de producción? ¿puedo hacer que la máquina se dañe con menos frecuencia?"
+ - **Qué:** ¿Qué problema se tiene?, aquí planteamos un problema puntual, por ejemplo: "¿por qué están cayendo las ventas? ¿Por qué está tomando más tiempo el proceso de producción? ¿puedo hacer que la máquina se dañe con menos frecuencia?"
  
-- **¿Por qué?:** 
+- **¿Por qué?:** ¿Por qué se tiene el problema? en otras palabras, se pretende 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzI5MDcwNSw2NDkwMTkwMjQsOTI1Nz
-M4NDQ4LDE3NzA2ODIwMDAsNzY1NTQ4Njg2XX0=
+eyJoaXN0b3J5IjpbMjMyNjI5MDk4LDY0OTAxOTAyNCw5MjU3Mz
+g0NDgsMTc3MDY4MjAwMCw3NjU1NDg2ODZdfQ==
 -->
