@@ -15,12 +15,12 @@ Una hipótesis debe surgir de un problema o potencial problema que se esté perc
  -- Mala praxis por parte del operario
  -- Fallo eléctrico
  
- - **Cómo:** 
+ - **Cómo:** ¿cómo diseñamos una solución 
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3MTQyNDksMTAwMTQzNzE2LDY0OTAxOT
-AyNCw5MjU3Mzg0NDgsMTc3MDY4MjAwMCw3NjU1NDg2ODZdfQ==
+eyJoaXN0b3J5IjpbNjY2MzU1NTY0LDEwMDE0MzcxNiw2NDkwMT
+kwMjQsOTI1NzM4NDQ4LDE3NzA2ODIwMDAsNzY1NTQ4Njg2XX0=
 
 -->
