@@ -5,8 +5,11 @@
  - **Alcance:** Queremos utilizar el método para solucionar el problema, en otro ámbitos de la empresa, tal vez ámbitos geográficos o de las áreas de la empresa. Para poder lograr este objetivo, la solución debe permitir parametrizar o adaptar su ejecución a los diferentes ambientes en los que se desea aplicar.
 ## Cómo se estructura un caso de negocio para implementar DS
 
-Una hipótesis debe surgir de un problema o potencial problema que se esté percibiendo
+Una hipótesis debe surgir de un problema o potencial problema que se esté percibiendo. A partir de la hipótesis, estructuramos el caso de negocio de la siguiente manera:
+
+ - List item
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1NzM4NDQ4LDE3NzA2ODIwMDAsNzY1NT
-Q4Njg2XX0=
+eyJoaXN0b3J5IjpbLTEwNTkwNDA2ODEsOTI1NzM4NDQ4LDE3Nz
+A2ODIwMDAsNzY1NTQ4Njg2XX0=
 -->
