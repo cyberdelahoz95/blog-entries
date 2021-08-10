@@ -1,7 +1,8 @@
-## Tips para desarrollo y despliegue con contenedores de Docker
+# Tips para desarrollo y despliegue con contenedores de Docker
 
-# Heading
+## Variables de entorno
+Una buena práctica, no sólo en Docker sino en cualquier escenario, es el uso de variables de entorno y de esa manera evitar ingresar valores quemados al código
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTM4ODcyNF19
+eyJoaXN0b3J5IjpbLTMxNjU2MDkxNF19
 -->
