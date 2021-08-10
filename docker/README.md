@@ -53,7 +53,9 @@ networks:
 	multiple_containers_net:
 		name: local_net
 ```
+
+Pendiente como los otros container se contectan a esta red
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTcwMTUzMiw3OTgxMzUyODQsNjczMT
+eyJoaXN0b3J5IjpbMTg5Njc2NjM2OCw3OTgxMzUyODQsNjczMT
 EyODU0LDE4ODA3NTA1NCwtNjUwNTY1OTAxXX0=
 -->
