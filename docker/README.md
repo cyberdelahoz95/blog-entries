@@ -6,8 +6,8 @@ En el caso de Docker, podemos usar con facilidad variables de entorno de la sigu
 ```yaml
 version: "3"
 services:
-vitrineo_cms_app:
-image: strapi/strapi
+	cms_app:
+		image: strapi/strapi
 environment:
 DATABASE_CLIENT: ${DATABASE_CLIENT}
 DATABASE_NAME: ${POSTGRES_DB}
@@ -21,5 +21,5 @@ ports:
 - "1337:1337"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTA0MDA0MF19
+eyJoaXN0b3J5IjpbLTY1MDU2NTkwMV19
 -->
