@@ -34,30 +34,17 @@ En algunas ocasiones, no tenemos toda nuestra infraestructura definida en un só
 Para poder establecer un canal de comunicación, establecemos una red en el primer archivo docker-compose que ejecutemos.
 ```yaml
 version: "3"
-
 services:
-
-cms_app:
-
-image: strapi/strapi
-
-...
-
-ports: - "1337:1337"
-
-depends_on:
-
-- cms_db
-
-networks:
-
-- local_net
-
-  
-
-cms_db:
-
-image: postgres
+	cms_app:
+		image: strapi/strapi
+		...
+		ports: - "1337:1337"
+		depends_on:
+			- cms_db
+		networks:
+			- local_net
+	cms_db:
+		image: postgres
 
 ...
 
@@ -74,6 +61,6 @@ multiple_containers_net:
 name: local_net
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2NDc2NTQ4LDc5ODEzNTI4NCw2NzMxMT
-I4NTQsMTg4MDc1MDU0LC02NTA1NjU5MDFdfQ==
+eyJoaXN0b3J5IjpbLTk0NjUxMTE1OCw3OTgxMzUyODQsNjczMT
+EyODU0LDE4ODA3NTA1NCwtNjUwNTY1OTAxXX0=
 -->
