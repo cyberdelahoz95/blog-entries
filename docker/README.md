@@ -29,8 +29,8 @@ DATABASE_PORT=5432
 DATABASE_USERNAME=my-user
 DATABASE_PASSWORD=p4ssw0rd
 ```
-
+## Comunicar contenedores definidos en diferentes ardocker-compose
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczMTEyODU0LDE4ODA3NTA1NCwtNjUwNT
-Y1OTAxXX0=
+eyJoaXN0b3J5IjpbLTIzNTAzMTU5OSw2NzMxMTI4NTQsMTg4MD
+c1MDU0LC02NTA1NjU5MDFdfQ==
 -->
