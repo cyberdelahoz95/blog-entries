@@ -31,8 +31,9 @@ DATABASE_PASSWORD=p4ssw0rd
 ```
 ## Comunicar contenedores definidos en diferentes archivo docker-compose
 En algunas ocasiones, no tenemos toda nuestra infraestructura definida en un sólo archivo docker-compose, esto es especialmente cierto en fase de desarrollo y estamos comunicando aplicaciones totalmente diferentes.
-Para poder establecer un canal de comunicación, establecemos una red en el primer archivo docker-compose que 
+Para poder establecer un canal de comunicación, establecemos una red en el primer archivo docker-compose que ejecutemos.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjc2MzIxNCw2NzMxMTI4NTQsMTg4MD
-c1MDU0LC02NTA1NjU5MDFdfQ==
+eyJoaXN0b3J5IjpbNzk4MTM1Mjg0LDY3MzExMjg1NCwxODgwNz
+UwNTQsLTY1MDU2NTkwMV19
 -->
