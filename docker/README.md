@@ -22,9 +22,15 @@ services:
 ```
 Como podemos notar en el archivo docker-compose anterior, en vez de insertar los valores de manera estática, utilizamos la forma **${VARIABLE_DE_ENTORNO}**
 Las variables de entorno pueden estar definidas de manera directa en el sistema operativo, también pueden ser inyectadas a través de un administrador, este es el caso de las instancias de AWS. Localmente y para fines de desarrollo, podemos utilizar un archivo .env en el que definamos nuestras variables.
-
+```
+DATABASE_CLIENT=postgres
+DATABASE_HOST=container_db
+DATABASE_PORT=5432
+DATABASE_USERNAME=my-user
+DATABASE_PASSWORD=p4ssw0rd
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzczOTMzMCwxODgwNzUwNTQsLTY1MD
-U2NTkwMV19
+eyJoaXN0b3J5IjpbNjczMTEyODU0LDE4ODA3NTA1NCwtNjUwNT
+Y1OTAxXX0=
 -->
