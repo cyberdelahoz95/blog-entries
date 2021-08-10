@@ -32,8 +32,48 @@ DATABASE_PASSWORD=p4ssw0rd
 ## Comunicar contenedores definidos en diferentes archivo docker-compose
 En algunas ocasiones, no tenemos toda nuestra infraestructura definida en un sólo archivo docker-compose, esto es especialmente cierto en fase de desarrollo y estamos comunicando aplicaciones totalmente diferentes.
 Para poder establecer un canal de comunicación, establecemos una red en el primer archivo docker-compose que ejecutemos.
+```yaml
+version: "3"
 
+services:
+
+cms_app:
+
+image: strapi/strapi
+
+...
+
+ports: - "1337:1337"
+
+depends_on:
+
+- cms_db
+
+networks:
+
+- local_net
+
+  
+
+cms_db:
+
+image: postgres
+
+...
+
+networks:
+
+- local_net
+
+  
+
+networks:
+
+multiple_containers_net:
+
+name: local_net
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4MTM1Mjg0LDY3MzExMjg1NCwxODgwNz
-UwNTQsLTY1MDU2NTkwMV19
+eyJoaXN0b3J5IjpbNDg2NDc2NTQ4LDc5ODEzNTI4NCw2NzMxMT
+I4NTQsMTg4MDc1MDU0LC02NTA1NjU5MDFdfQ==
 -->
