@@ -29,8 +29,10 @@ DATABASE_PORT=5432
 DATABASE_USERNAME=my-user
 DATABASE_PASSWORD=p4ssw0rd
 ```
-## Comunicar contenedores definidos en diferentes ardocker-compose
+## Comunicar contenedores definidos en diferentes archivo docker-compose
+En algunas ocasiones, no tenemos toda nuestra infraestructura definida en un sólo archivo docker-compose, esto es especialmente cierto en fase de desarrollo y estamos comunicando aplicaciones totalmente diferentes.
+Para poder establecer un canal de comunicación, establecemos una red en el primer archivo docker-compose que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNTAzMTU5OSw2NzMxMTI4NTQsMTg4MD
+eyJoaXN0b3J5IjpbMTIxNjc2MzIxNCw2NzMxMTI4NTQsMTg4MD
 c1MDU0LC02NTA1NjU5MDFdfQ==
 -->
