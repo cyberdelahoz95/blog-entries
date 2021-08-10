@@ -20,8 +20,8 @@ services:
 		ports:
 		- "1337:1337"
 ```
-Como podemos notar en el archivo docker-compose anterior, en vez de insertar los valores de manera estática
+Como podemos notar en el archivo docker-compose anterior, en vez de insertar los valores de manera estática, utilizamos la forma **${VARIABLE_DE_ENTORNO}**,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTY3NzY2MCwxODgwNzUwNTQsLTY1MD
-U2NTkwMV19
+eyJoaXN0b3J5IjpbMzQzMjEwNDQxLDE4ODA3NTA1NCwtNjUwNT
+Y1OTAxXX0=
 -->
