@@ -45,22 +45,15 @@ services:
 			- local_net
 	cms_db:
 		image: postgres
-
-...
-
-networks:
-
-- local_net
-
-  
+		...
+		networks:
+		- local_net
 
 networks:
-
-multiple_containers_net:
-
-name: local_net
+	multiple_containers_net:
+		name: local_net
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjUxMTE1OCw3OTgxMzUyODQsNjczMT
+eyJoaXN0b3J5IjpbLTgzOTcwMTUzMiw3OTgxMzUyODQsNjczMT
 EyODU0LDE4ODA3NTA1NCwtNjUwNTY1OTAxXX0=
 -->
