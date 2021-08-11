@@ -31,7 +31,7 @@ DATABASE_PASSWORD=p4ssw0rd
 ```
 ## Comunicar contenedores definidos en diferentes archivo docker-compose
 En algunas ocasiones, no tenemos toda nuestra infraestructura definida en un sólo archivo docker-compose, esto es especialmente cierto en fase de desarrollo y estamos comunicando aplicaciones totalmente diferentes.
-Para poder establecer un canal de comunicación, establecemos una red en el primer archivo docker-compose que ejecutemos.
+Para poder establecer un canal de comunicación, creamos una red en el primer archivo docker-compose que ejecutemos.
 ```yaml
 version: "3"
 services:
@@ -53,9 +53,12 @@ networks:
 	multiple_containers_net:
 		name: local_net
 ```
+Ahora tenemos la red creata disponible para ser "consumida" desde otros proyectos docker-compose de la siguiente manera.
 
-Pendiente como los otros container se contectan a esta red
+```yaml
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Njc2NjM2OCw3OTgxMzUyODQsNjczMT
-EyODU0LDE4ODA3NTA1NCwtNjUwNTY1OTAxXX0=
+eyJoaXN0b3J5IjpbMTQ4NDYyMDc2OCwxODk2NzY2MzY4LDc5OD
+EzNTI4NCw2NzMxMTI4NTQsMTg4MDc1MDU0LC02NTA1NjU5MDFd
+fQ==
 -->
