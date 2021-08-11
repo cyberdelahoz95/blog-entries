@@ -68,12 +68,12 @@ networks:
 		external:
 		name: multiple_containers_net
 ```
-También es posible enlazarnos desde contenedores creados de manera directa con comandos de Docker
+También es posible enlazarnos desde contenedores creados de manera directa con comandos de Docker, para lo cual usamos el subcomando network al ejecutar docker run.
 
-    docker run --rm -it -p 8000:80 -p 8001:443 -e ASPNETCORE_URLS="https://+;http://+" -e ASPNETCORE_HTTPS_PORT=8001 -e ASPNETCORE_Kestrel__Certificates__Default__Password="synapse2088" -e ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx -e ASPNETCORE_ENVIRONMENT=Development -v ${HOME}/.aspnet/https:/https/ -v $(pwd):/app/ --network="vitrineo_net" -w /app mcr.microsoft.com/dotnet/sdk:5.0 dotnet run --no-launch-profile
+    --network="multiple_containers_net"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjU3MDY2MzQsMTg5Njc2NjM2OCw3OT
-gxMzUyODQsNjczMTEyODU0LDE4ODA3NTA1NCwtNjUwNTY1OTAx
-XX0=
+eyJoaXN0b3J5IjpbMTYxOTY4NjExLDE4OTY3NjYzNjgsNzk4MT
+M1Mjg0LDY3MzExMjg1NCwxODgwNzUwNTQsLTY1MDU2NTkwMV19
+
 -->
