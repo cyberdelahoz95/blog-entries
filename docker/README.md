@@ -63,14 +63,17 @@ services:
 		...
 		networks:
 			- adminer_local_net
-
 networks:
 	adminer_local_net:
 		external:
 		name: multiple_containers_net
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2MTcyODgwLDE4OTY3NjYzNjgsNzk4MT
-M1Mjg0LDY3MzExMjg1NCwxODgwNzUwNTQsLTY1MDU2NTkwMV19
+También es posible enlazarnos desde contenedores creados de manera directa con comandos de Docker
 
+    docker run --rm -it -p 8000:80 -p 8001:443 -e ASPNETCORE_URLS="https://+;http://+" -e ASPNETCORE_HTTPS_PORT=8001 -e ASPNETCORE_Kestrel__Certificates__Default__Password="synapse2088" -e ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx -e ASPNETCORE_ENVIRONMENT=Development -v ${HOME}/.aspnet/https:/https/ -v $(pwd):/app/ --network="vitrineo_net" -w /app mcr.microsoft.com/dotnet/sdk:5.0 dotnet run --no-launch-profile
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIxMjU3MDY2MzQsMTg5Njc2NjM2OCw3OT
+gxMzUyODQsNjczMTEyODU0LDE4ODA3NTA1NCwtNjUwNTY1OTAx
+XX0=
 -->
