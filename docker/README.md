@@ -56,9 +56,32 @@ networks:
 Ahora tenemos la red creata disponible para ser "consumida" desde otros proyectos docker-compose de la siguiente manera.
 
 ```yaml
+version: "3.8"
+services:
+	adminer:
+		image: adminer
+restart: always
+
+ports:
+
+- 8080:8080
+
+networks:
+
+- adminer_local_net
+
+  
+
+networks:
+
+adminer_local_net:
+
+external:
+
+name: vitrineo_net
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDYyMDc2OCwxODk2NzY2MzY4LDc5OD
+eyJoaXN0b3J5IjpbLTc5MzYxNjU1OCwxODk2NzY2MzY4LDc5OD
 EzNTI4NCw2NzMxMTI4NTQsMTg4MDc1MDU0LC02NTA1NjU5MDFd
 fQ==
 -->
