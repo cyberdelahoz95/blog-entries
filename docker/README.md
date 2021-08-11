@@ -50,8 +50,8 @@ services:
 		- local_net
 
 networks:
-	multiple_containers_net:
-		name: local_net
+	local_net:
+		name: multiple_containers_net 
 ```
 Ahora tenemos la red creata disponible para ser "consumida" desde otros proyectos docker-compose de la siguiente manera.
 
@@ -67,10 +67,10 @@ services:
 networks:
 	adminer_local_net:
 		external:
-		name: local_net
+		name: multiple_containers_net
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDI4MjE0MCwxODk2NzY2MzY4LDc5OD
-EzNTI4NCw2NzMxMTI4NTQsMTg4MDc1MDU0LC02NTA1NjU5MDFd
-fQ==
+eyJoaXN0b3J5IjpbMjk2MTcyODgwLDE4OTY3NjYzNjgsNzk4MT
+M1Mjg0LDY3MzExMjg1NCwxODgwNzUwNTQsLTY1MDU2NTkwMV19
+
 -->
