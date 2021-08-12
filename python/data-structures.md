@@ -1,9 +1,10 @@
-Estructuras de datos en python
+# Estructuras de datos en Python
 
-Listas
+## Listas
 
 En su forma básica, agrupa objetos al incluirlos dentro de corchetes []
-mi_lista = [1,2,'tres']
+
+    mi_lista = [1,2,'tres']
 
 Se accede al elemento de una lista mediante el número índice del elemento deseado.
 mi_lista[0]
@@ -47,3 +48,6 @@ Se recorre de la siguiente manera
 for pair in mi_dicc.keys(): # pair tendrá el valor de las keys
 for pair in mi_dicc.values(): # pair tendrá el valor de los values
 for key, value for dicc.items()
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIwNTc5NTIwMDBdfQ==
+-->
