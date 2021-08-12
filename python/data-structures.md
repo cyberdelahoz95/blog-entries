@@ -28,31 +28,38 @@ Las listas se pueden sumar o combinar al usar el operador +
 
     mi_lista1 + mi_lista2
 
-Tuplas
+## Tuplas
 Se declara una tupla con el comando
-mi_tupla = ()
+
+    mi_tupla = ()
+
 Es una lista inmutable, no es posible agregar ni remover elemento de la lista una vez ha sido inicializada.
 Su característica principal es que al ser inmutable, operarlo es mucho más rápido.
 
-Diccionarios
+## Diccionarios
+
 Se declara un diccionario con la instrucción
-mi_dicc = {}
+
+    mi_dicc = {}
 
 Un diccionario es una estructura de datos del tipo llave valor.
-mi_dicc = {
-'llave1':1,
-'llave2':2,
-'llave3':3
-}
+
+    mi_dicc = {
+    'llave1':1,
+    'llave2':2,
+    'llave3':3
+    }
 
 Se acceden a un elemento a través de la llave.
-mi_dicc['llave1']
+
+    mi_dicc['llave1']
 
 Se recorre de la siguiente manera
 
-for pair in mi_dicc.keys(): # pair tendrá el valor de las keys
-for pair in mi_dicc.values(): # pair tendrá el valor de los values
-for key, value for dicc.items()
+    for pair in mi_dicc.keys(): # pair tendrá el valor de las keys
+    for pair in mi_dicc.values(): # pair tendrá el valor de los values
+    for key, value for dicc.items()
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjQ2NDQzMF19
+eyJoaXN0b3J5IjpbMTAwMjQxNDEzMF19
 -->
