@@ -35,9 +35,11 @@ Es un contenedor o ambiente de ejecución aislado de python. Permite tener proye
 Para crear un environment podemos usar el comando:
 
 ```
-python3 -m venv
+python3 -m venv venv
 ```
+En el comando anterior, el segundo venv es el nombre que queremos darle al entorno virtual.
+Para ingresar al entorno virtual previamente creado, basta con ingresar a la carpeta creada con el comando anterior 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzYxOTM3Niw2MzQ0OTc0NjcsMjA2OD
+eyJoaXN0b3J5IjpbMjA3Njk3NzkwMCw2MzQ0OTc0NjcsMjA2OD
 czODkwNV19
 -->
