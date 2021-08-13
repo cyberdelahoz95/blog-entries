@@ -17,18 +17,21 @@ Los principios son:
  5. Plano es mejor que anidado.
  6. Espaciado es mejor que denso.
  7. La legibilidad es importante.
- 8. Los casos especiales no son lo suficientemente especiales como para romper las reglas, sin embargo, la practicidad le gana a la pureza.
- 9. Los errores nunca deberían pasar silenciosamente, a menos que se silencien explícitamente.
- 10. Frente a la ambigüedad, evitar la tentación de adivinar.
- 11. Debería haber una, y preferiblemente solo una, manera obvia de hacerlo.
- 12. A pesar de que esa manera no sea obvia a menos que seas holandés.
-Ahora es mejor que nunca. A pesar de que nunca es muchas veces mejor que ahora mismo.
-Si la implementación es difícil de explicar es una mala idea.
-Si la implementación es fácil de explicar, puede que sea una buena idea.
-Los namespaces son una gran idea.
+ 8. Los casos especiales no son lo suficientemente especiales como para romper las reglas, sin embargo, 
+ 9. La practicidad le gana a la pureza.
+ 10. Los errores nunca deberían pasar silenciosamente.
+ 11. A menos que se silencien explícitamente.
+ 12. Frente a la ambigüedad, evitar la tentación de adivinar.
+ 13. Debería haber una, y preferiblemente solo una, manera obvia de hacerlo.
+ 14. A pesar de que esa manera no sea obvia a menos que seas holandés.
+ 15. Ahora es mejor que nunca. 
+ 16. A pesar de que nunca es muchas veces mejor que ahora mismo.
+ 17. Si la implementación es difícil de explicar es una mala idea.
+ 18. Si la implementación es fácil de explicar, puede que sea una buena idea.
+ 19. Los namespaces son una gran idea.
 
 Entorno virtual
 Es un contenedor o ambiente de ejecución aislado de python. Permite tener proyectos separados de python y como resultado los modulos y sus versiones se manejan de manera descentralizada.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUxMDUxOTE0XX0=
+eyJoaXN0b3J5IjpbMjA2ODczODkwNV19
 -->
