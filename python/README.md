@@ -2,9 +2,9 @@ Zen de python
 
 Son 20 principios de desarrollo, fueron creados en 1999.
 
-El zen puede ser visto dentro de una línea de comando si usamos la instrucción
+El Zen puede ser visto dentro de una línea de comando si usamos la instrucción
 
-```
+```python
 import this
 ```
 
@@ -28,3 +28,6 @@ Los namespaces son una gran idea.
 
 Entorno virtual
 Es un contenedor o ambiente de ejecución aislado de python. Permite tener proyectos separados de python y como resultado los modulos y sus versiones se manejan de manera descentralizada.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTAwMzcwMzgwMl19
+-->
