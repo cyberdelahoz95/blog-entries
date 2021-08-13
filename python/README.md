@@ -42,8 +42,7 @@ Para ingresar al entorno virtual previamente creado y activarlo, basta con ejecu
 ```
 source venv/bin/activate
 ```
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1NjA5MTUyLC04NTUwNzgwMzIsNjM0ND
-k3NDY3LDIwNjg3Mzg5MDVdfQ==
+eyJoaXN0b3J5IjpbMjA5NDU1OTUwNiw1NjU2MDkxNTIsLTg1NT
+A3ODAzMiw2MzQ0OTc0NjcsMjA2ODczODkwNV19
 -->
