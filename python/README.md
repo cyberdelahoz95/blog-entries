@@ -34,8 +34,10 @@ Los principios son:
 Es un contenedor o ambiente de ejecución aislado de python. Permite tener proyectos separados de python y como resultado los modulos y sus versiones se manejan de manera descentralizada.
 Para crear un environment podemos usar el comando:
 
-
+```
+python3 -m venv
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDA0NjA2Niw2MzQ0OTc0NjcsMjA2OD
+eyJoaXN0b3J5IjpbLTE4MzYxOTM3Niw2MzQ0OTc0NjcsMjA2OD
 czODkwNV19
 -->
