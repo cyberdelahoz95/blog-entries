@@ -32,6 +32,10 @@ Los principios son:
 
 ## Entorno virtual
 Es un contenedor o ambiente de ejecución aislado de python. Permite tener proyectos separados de python y como resultado los modulos y sus versiones se manejan de manera descentralizada.
+Para crear un environment podemos usar el comando:
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0NDk3NDY3LDIwNjg3Mzg5MDVdfQ==
+eyJoaXN0b3J5IjpbMTY5MDA0NjA2Niw2MzQ0OTc0NjcsMjA2OD
+czODkwNV19
 -->
