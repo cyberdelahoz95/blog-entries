@@ -23,7 +23,7 @@ Los principios son:
  11. A menos que se silencien explícitamente.
  12. Frente a la ambigüedad, evitar la tentación de adivinar.
  13. Debería haber una, y preferiblemente solo una, manera obvia de hacerlo.
- 14. A pesar de que esa manera no sea obvia a menos que seas holandés.
+ 14. A pesar de que esa manera no sea obvia.
  15. Ahora es mejor que nunca. 
  16. A pesar de que nunca es muchas veces mejor que ahora mismo.
  17. Si la implementación es difícil de explicar es una mala idea.
@@ -33,5 +33,5 @@ Los principios son:
 Entorno virtual
 Es un contenedor o ambiente de ejecución aislado de python. Permite tener proyectos separados de python y como resultado los modulos y sus versiones se manejan de manera descentralizada.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODczODkwNV19
+eyJoaXN0b3J5IjpbLTMzNjExMDIyNywyMDY4NzM4OTA1XX0=
 -->
