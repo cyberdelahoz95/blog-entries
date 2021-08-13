@@ -38,8 +38,12 @@ Para crear un environment podemos usar el comando:
 python3 -m venv venv
 ```
 En el comando anterior, el segundo venv es el nombre que queremos darle al entorno virtual.
-Para ingresar al entorno virtual previamente creado, basta con ingresar a la carpeta creada con el comando anterior 
+Para ingresar al entorno virtual previamente creado y activarlo, basta con ejecutar el comando.
+```
+source venv/bin/activate
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Njk3NzkwMCw2MzQ0OTc0NjcsMjA2OD
+eyJoaXN0b3J5IjpbLTg1NTA3ODAzMiw2MzQ0OTc0NjcsMjA2OD
 czODkwNV19
 -->
