@@ -16,8 +16,7 @@ my_dictionary_containing_lists = {
     "floating_numbers":[1.1,2.3,3.5,4.1,5.7,6.9],
 }
 ```
-
-List comprehensions
+## List comprehensions
 Proceso para llenar una lista con los números del 1 al 100 elevados al cuadrado si no son divisibles exactamente entre 3.
 Antes
 
@@ -38,7 +37,7 @@ square = [i**2 for i in range(1,101) if i%3 != 0]
 General
 [element for element in iterable if condition]
 
-Dictionary comprehensions
+## Dictionary comprehensions
 
 ```python
 my_dict = {i:i**3 for i in range(1,101) if i % 3 !- 0}
@@ -47,5 +46,5 @@ my_dict = {i:i**3 for i in range(1,101) if i % 3 !- 0}
 General
 {key:value for element in iterable if condition}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDAwOTc0NF19
+eyJoaXN0b3J5IjpbLTIxMzQxNjMxNDRdfQ==
 -->
