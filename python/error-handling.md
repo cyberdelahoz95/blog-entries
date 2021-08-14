@@ -1,4 +1,4 @@
-# Manejo de Errores en python
+# Manejo de errores en python
 
 La manera de leer los Traceback al presentarse un error, es leer de abajo hacia arriba. Por lo general, la última línea es la excepción que se presentó, posteriormente de abajo hacia arriba la segunda línea contiene, el archivo, la línea de código y el módulo en el que se presentó el error.
 
@@ -55,5 +55,5 @@ Resultará en
 AssertError: No se puede ingresar una cadena vacía
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjk3NDYyOF19
+eyJoaXN0b3J5IjpbLTE3MjA2MTA2MF19
 -->
