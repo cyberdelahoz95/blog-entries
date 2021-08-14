@@ -33,8 +33,7 @@ Después, con list comprehensions
 ```python
 square = [i**2 for i in range(1,101) if i%3 != 0]
 ```
-
-General
+Forma general
 [element for element in iterable if condition]
 
 ## Dictionary comprehensions
@@ -43,8 +42,8 @@ General
 my_dict = {i:i**3 for i in range(1,101) if i % 3 !- 0}
 ```
 
-General
+Forma general
 {key:value for element in iterable if condition}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzQxNjMxNDRdfQ==
+eyJoaXN0b3J5IjpbLTE0Mjc0NDMxNThdfQ==
 -->
