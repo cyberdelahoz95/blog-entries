@@ -16,8 +16,8 @@ except TypeError:
 ```
 En el bloque anterior, python ejecutará el bloque de código dentro de la instrucción try y sólo si se presenta una excepción del tipo TypeError se ejecutará lo que se encuentra dentro del except. Cabe señalar que si se presenta una excepción de otro tipo, no se ejecutará el código dentro de except.
 
-raise
-esta función nos permite elevar una excepción el tipo que nos parezca más conveniente y luego dejar que el manejador de errores except, haga lo propio con el tipo de error que hemos elevado. Est
+**raise**
+esta función nos permite elevar una excepción el tipo que nos parezca más conveniente y luego dejar que el manejador de errores except, haga lo propio con el tipo de error que hemos elevado.
 
 ```python
 try:
@@ -28,7 +28,7 @@ except ValueError as err:
     # más código
 ```
 
-finally
+**finally**
 Es una instrucción que se ejecuta al final de un try y de un except, la ejecución dentro de finally es indistinta de que ocurra un error o no.
 
 ```python
@@ -39,8 +39,8 @@ finally:
     f.close()
 ```
 
-assert statement
-Permiten manejar flujos de código a través de encapsularlos en aserciones, es decir, expresiones que esperamos que sean verdaderas para continuar su ejecución y en caso contrario, lanzamos una excepción.
+**assert statement**
+Permiten manejar flujos de código a través de encapsularlos en aserciones, es decir, expresiones que esperamos que sean verdaderas para continuar con ejecución y en caso contrario, lanzamos una excepción.
 
 ```python
 def palindrome (string):
@@ -56,5 +56,5 @@ Resultar en
 AssertError: No se puede ingresar una cadena vacía
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjkxNDQ1NV19
+eyJoaXN0b3J5IjpbMTM2NDk0MTU0M119
 -->
