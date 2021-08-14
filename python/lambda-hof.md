@@ -1,4 +1,5 @@
-Lambda o funciones anónimas
+# Manejo avanzado de funciones
+## Lambda o funciones anónimas
 
 ```python
 palindrome = lambda string: string == string[::-1]
@@ -6,7 +7,7 @@ palindrome = lambda string: string == string[::-1]
 print(palindrome('ana'))
 ```
 
-Funciones de orden superior
+## Funciones de orden superior
 Son funciones que reciben como parámetro funciones que han de ser ejecutadas dentro de la función contenedora.
 Un buen ejemplo de las funciones de orden superior, es la función filter, map y reduce
 
@@ -35,3 +36,6 @@ reduced = reduce(lambda a, b: a * b, my_list)
 
 print(reduced)
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTM5NzA2NTkzM119
+-->
