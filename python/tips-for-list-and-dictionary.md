@@ -1,3 +1,6 @@
+# Tips de uso de list y diccionarios en python
+
+## HeLists y Dict anidados
 Debido a que en python todo es un objeto, es posible realizar listas anidades o listas que contienen diccionarios e incluso se puede crear diccionarios que contienen listas.
 
 ```python
@@ -43,3 +46,6 @@ my_dict = {i:i**3 for i in range(1,101) if i % 3 !- 0}
 
 General
 {key:value for element in iterable if condition}
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIwNzkwOTI5NzldfQ==
+-->
