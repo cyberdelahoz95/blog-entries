@@ -40,7 +40,7 @@ finally:
 ```
 
 **assert statement**
-Permiten manejar flujos de código a través de encapsularlos en aserciones, es decir, expresiones que esperamos que sean verdaderas para continuar con ejecución y en caso contrario, lanzamos una excepción.
+Permiten manejar flujos de código a través de encapsularlos en aserciones, es decir, expresiones que esperamos que sean verdaderas para continuar con ejecución del programa y en caso contrario, lanzamos una excepción.
 
 ```python
 def palindrome (string):
@@ -50,11 +50,10 @@ def palindrome (string):
 print(palindrome(""))
 ```
 
-Resultar en
-
+Resultará en
 ```
 AssertError: No se puede ingresar una cadena vacía
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDk0MTU0M119
+eyJoaXN0b3J5IjpbLTkyMjk3NDYyOF19
 -->
