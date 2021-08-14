@@ -1,6 +1,8 @@
-La manera de leer los Traceback al presentarse un error, es leer de abajo hacia arriba, por lo general la última línea es la excepción que se presentó, posteriormente de abajo hacia arriba la segunda línea contiene, el archivo, la línea de código y el módulo en el que se presentó el error.
+# Manejo de Errores en python
 
-Cabe señalar que si en la función en la que se presentó el error, no hay un manejador de excepciones, python eleva, es decir transfiere el error a la función desde la cual se llamo a la función en la que se presentó el error. Este proceso ocurre iterativamente hasta que suceda la primera de 2 cosas, o se encuentra un manejador de excepciones o se llega hasta la función main y por ende se corta la ejecución del programa, razón por la cual en python la primera línea de arriba hacia a abajo dice "most recent call last", dando a entender que el origen del error se encuentra hasta el final del Traceback.
+La manera de leer los Traceback al presentarse un error, es leer de abajo hacia arriba. Por lo general, la última línea es la excepción que se presentó, posteriormente de abajo hacia arriba la segunda línea contiene, el archivo, la línea de código y el módulo en el que se presentó el error.
+
+Cabe señalar que, si en la función en la que se presentó el error, no hay un manejador de excepciones, python eleva, es decir transfiere el error a la función desde la cual se llamo a la función en la que se presentó el error. Este proceso ocurre iterativamente hasta que suceda la primera de 2 cosas, o se encuentra un manejador de excepciones o se llega hasta la función main y por ende se corta la ejecución del programa, razón por la cual en python la primera línea de arriba hacia a abajo dice "most recent call last", dando a entender que el origen del error se encuentra hasta el final del Traceback.
 
 Manejo de excepciones
 
@@ -54,3 +56,6 @@ Resultar en
 ```
 AssertError: No se puede ingresar una cadena vacía
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTg0NTA1NjgxN119
+-->
