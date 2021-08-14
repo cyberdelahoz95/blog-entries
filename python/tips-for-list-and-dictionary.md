@@ -1,3 +1,6 @@
+# Tips de uso de list y diccionarios en python
+
+## Lists y Dict anidados
 Debido a que en python todo es un objeto, es posible realizar listas anidades o listas que contienen diccionarios e incluso se puede crear diccionarios que contienen listas.
 
 ```python
@@ -13,8 +16,7 @@ my_dictionary_containing_lists = {
     "floating_numbers":[1.1,2.3,3.5,4.1,5.7,6.9],
 }
 ```
-
-List comprehensions
+## List comprehensions
 Proceso para llenar una lista con los números del 1 al 100 elevados al cuadrado si no son divisibles exactamente entre 3.
 Antes
 
@@ -31,15 +33,17 @@ Después, con list comprehensions
 ```python
 square = [i**2 for i in range(1,101) if i%3 != 0]
 ```
-
-General
+Forma general
 [element for element in iterable if condition]
 
-Dictionary comprehensions
+## Dictionary comprehensions
 
 ```python
 my_dict = {i:i**3 for i in range(1,101) if i % 3 !- 0}
 ```
 
-General
+Forma general
 {key:value for element in iterable if condition}
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE0Mjc0NDMxNThdfQ==
+-->
