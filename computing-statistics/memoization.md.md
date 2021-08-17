@@ -26,36 +26,47 @@ Sin embargo, para poder obtener una respuesta favorable y correcta, es obligator
 Entonces, debido a que es un problema que se soluciona realizando una tarea de forma repetitiva, es posible aplicar dynamic programming para optimizar el resultado, se aplica al utilizar memoización en nuestra solución.
 
 ```python
-def fibo_dinamico(n, memo={}):
-	step =  0
-	if n ==  0:
-		step +=  1
-		print(f'.........Caso base - Fibo({n}) = {0}')
-		return 0
-	elif n ==  1:
-		step += 1
-		print(f'.........Caso base - Fibo({n}) = {0}')
-		return  1
-	try:
-		print(f'..Consultando en dic_memo Fibo({n})')
-		return memo[n]
-	except KeyError:
-		print(f'....No existe Fibo({n}) en el diccionario')
-		print(f'......Calculando Fibo({n})')
-		resultado =  fibo_dinamico(n-1, memo) +  fibo_dinamico(n-2, memo)
-		memo[n] = resultado
-		print(f'.........Se guardo Fibo({n})={resultado} en el diccionario')
-		return resultado
- 
-if  __name__  ==  '__main__':
-	n =  5
-	num_fibo_n =  fibo_dinamico(n)
-	print('*'*40)
-	print(f'El numero Fibo({n}) = {num_fibo_n}')
+mport sys
+
+def fibonacci_recursive(n):
+
+if n == 0 or n == 1:
+
+return 1
+
+return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
+
+def fibonacci_with_memo(n, memo={}):
+
+if n == 0 or n == 1:
+
+return 1
+
+try:
+
+return memo[n]
+
+except KeyError:
+
+resultado = fibonacci_with_memo(n - 1, memo) + fibonacci_with_memo(n - 2, memo)
+
+memo[n] = resultado
+
+return resultado
+
+if __name__ == "__main__":
+
+sys.setrecursionlimit(10002)
+
+n = int(input("Escoger número: "))
+
+result = fibonacci_with_memo(n)
+
+print(result)
 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE4MDQ5NDldfQ==
+eyJoaXN0b3J5IjpbLTE4NjM5NDk2OF19
 -->
