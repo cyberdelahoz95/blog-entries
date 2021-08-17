@@ -3,7 +3,7 @@
 
 Un sistema no determinista es aquel que incluye aleatoriedad y también se apoya en diferentes distribuciones de probabilidad para modelar sistemas complejos.
 
-Esta estrategia computacional se utiliza en especial en soluciones de software en las que se busca simular el comportamiento de un suceso o fen
+Esta estrategia computacional se utiliza en especial en soluciones de software en las que se busca simular el comportamiento de un suceso o fenómeno físico, tal vez en el estudio del comportamiento de particulas o en la realización de software para ser usado en los mercados de financiero.
 
 Pensemos en un programa que permite manejar el trafico en un cruce de la carretera. En otras palabras, que controla las luces del semáforo.
 
@@ -14,5 +14,5 @@ En este contexto, recordemos que la probabilidad es la medida de la certidumbre 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTE3ODE1MzEsMjEzNTY0MjU5M119
+eyJoaXN0b3J5IjpbMTg5NTc2OTkxMCwyMTM1NjQyNTkzXX0=
 -->
