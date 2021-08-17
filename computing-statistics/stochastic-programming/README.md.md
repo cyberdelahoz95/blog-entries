@@ -3,9 +3,9 @@ La programación estocástica es el uso de probabilidades a la hora de plantear 
 
 ## Conceptos estadísticos
 
-Las distribuciones permiten entender de diferentes maneras como estan repartidos los diferentes valores de una variable, dentro de una poblacion.
+Las distribuciones permiten entender de diferentes maneras como estan repartidos los diferentes valores de una variable, dentro de una población.
 
-La distribucion normal se define con base en la media y la desviacion estandar.
+La distribución normal se define con base en la media y la desviación estandar.
 
 el valor promedio o medida de tendencia central, nos permite ver en dónde se encuentran la mayoría de los valores de la muestra y normalmente es la media de la población.
 
@@ -43,5 +43,5 @@ Señala que después de un evento aleatorio extremo, el siguiente evento probabl
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4NTI2Mzk1XX0=
+eyJoaXN0b3J5IjpbLTE1ODA3MDQ3MjEsNTA4NTI2Mzk1XX0=
 -->
