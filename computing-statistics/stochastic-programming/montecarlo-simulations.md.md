@@ -1,8 +1,8 @@
-
 Son simulaciones que utilizan la aleatoriedad para predecir el resultado de un problema.
 
 Permiten transformar un problema determinístico en uno no determinístico.
 
+```python
 import random
 import collections
 
@@ -58,9 +58,10 @@ if __name__ == '__main__':
     intentos = int(input("Cuantos intentos para calcular la probabilidad "))
 
     main(tamano_mano, intentos)
-
+```
 
 > Written with [StackEdit](https://stackedit.io/).
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTkzMDQzMzYzM119
 -->
