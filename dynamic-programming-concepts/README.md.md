@@ -44,24 +44,18 @@ def fibo_dinamico(n, memo={}):
 		print(f'......Calculando Fibo({n})')
 		resultado =  fibo_dinamico(n-1, memo) +  fibo_dinamico(n-2, memo)
 		memo[n] = resultado
-	print(f'.........Se guardo Fibo({n})={resultado} en el diccionario')
-return resultado
-
-  
-
+		print(f'.........Se guardo Fibo({n})={resultado} en el diccionario')
+		return resultado
+ 
 if  __name__  ==  '__main__':
-
-n =  5
-
-num_fibo_n =  fibo_dinamico(n)
-
-print('*'*40)
-
-print(f'El numero Fibo({n}) = {num_fibo_n}')
+	n =  5
+	num_fibo_n =  fibo_dinamico(n)
+	print('*'*40)
+	print(f'El numero Fibo({n}) = {num_fibo_n}')
 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjkwMDEwM119
+eyJoaXN0b3J5IjpbLTEyNTE4MDQ5NDldfQ==
 -->
