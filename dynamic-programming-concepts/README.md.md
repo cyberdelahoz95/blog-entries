@@ -6,15 +6,18 @@ Básicamente estamos optimizando problemas mediante una optimización de los pro
 
 Se necesita tener problemas empalmados para poder utilizar programación dinámica. Esto quiere decir que la solución óptima se obtiene al resolver el mismo problema en varias ocasiones.
 
-Un buen eje
+Un buen ejemplo de la optimización siguiendo la descripción anterior es la **memoización**.
+
+## Memoización
 
 Memoización es guardar el resultado de operaciones previas para que en el futuro sea simplemente consultar en la memoria el resultado previamente guardado y de esa manera ahorrar en tiempo de ejecución.
 
-Ejemplo
+Ejemplo:
 
 Número de Fibonacci
 
-F(n) = F(n-1) + F(n-2)
+    F(n) = F(n-1) + F(n-2)
+
  
 Al implementar fibonacci siguiendo el proceso estricto de la formula, se obtiene un algoritmo ineficiente porque el crecimiento computacional (complejidad) es exponencial.
 Sin embargo para poder obtener una respuesta favorable y correcta, es obligatorio realizar el mismo proceso repetitivo. 
@@ -23,5 +26,5 @@ En el código de python se puede notar cómo se optimiza la solución de fibonac
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjU2OTI3NV19
+eyJoaXN0b3J5IjpbMjEyODExNzgxN119
 -->
