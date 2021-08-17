@@ -2,17 +2,17 @@ La programación estocástica es el uso de probabilidades a la hora de plantear 
 
 ## Conceptos estadísticos
 
-Las distribuciones permiten entender de diferentes maneras como estan repartidos los diferentes valores de una variable, dentro de una población.
+Las distribuciones permiten entender de diferentes maneras cómo están repartidos los diferentes valores de una variable, dentro de una población.
 
-La distribución normal se define con base en la media y la desviación estandar.
+La distribución normal se define con base en la media y la desviación estándar.
 
-el valor promedio o medida de tendencia central, nos permite ver en dónde se encuentran la mayoría de los valores de la muestra y normalmente es la media de la población.
+El valor promedio o medida de tendencia central, nos permite ver en dónde se encuentran la mayoría de los valores de la muestra y normalmente es la media de la población.
 
 Varianza y Desviación son datos de dispersión.
 
 La varianza mide la propagación de un conjunto de datos en relación a la media.
 
-la desviación estandar es la raíz cuadrada de la varianza.
+La desviación estándar es la raíz cuadrada de la varianza.
 Esto permite manejar media y su dispersión en la misma unidad.
 
 Muestreo
@@ -31,7 +31,7 @@ Esto se debe a que una muestra aleatoria tiende a manifestar las mismas caracter
 Sesgar una muestra, es sesgar las conclusiones acerca de la población que se harán a partir de la muestra.
 
 Falacia del Apostador
-es una mentira en la que se cree que debido a que un suceso independiente extremo ocurre, ocurrirán eventos extremos opuestos al anterior para nivelar la media.
+Es una mentira en la que se cree que debido a que un suceso independiente extremo ocurre, ocurrirán eventos extremos opuestos al anterior para nivelar la media.
 
 Regresión a la Media.
 Señala que después de un evento aleatorio extremo, el siguiente evento probablemente será menos extremo.
