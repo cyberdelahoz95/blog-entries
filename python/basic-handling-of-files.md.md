@@ -8,8 +8,10 @@ En python, la manipulación de archivos viene dada en los siguientes tipos de ma
 -   **a**  Añadido (agregar contenido). Crea el archivo si éste no existe
 -   **a+**  Añadido (agregar contenido) y lectura. Crea el archivo si éste no existe.
 
+La estructura o formato de la instrucción en python para manigular archivos, se presenta de la siguiente manera
 
-with  open(<ruta>, <modo_apertura>) as <nombre>
+    with  open(<ruta>, <modo_de_>) as <nombre> :
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTU1MjE5N119
+eyJoaXN0b3J5IjpbMTA4ODA3MTY1MV19
 -->
