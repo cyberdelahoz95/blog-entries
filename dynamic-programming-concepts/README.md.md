@@ -41,15 +41,10 @@ def fibo_dinamico(n, memo={}):
 		return memo[n]
 	except KeyError:
 		print(f'....No existe Fibo({n}) en el diccionario')
-
-print(f'......Calculando Fibo({n})')
-
-resultado =  fibo_dinamico(n-1, memo) +  fibo_dinamico(n-2, memo)
-
-memo[n] = resultado
-
-print(f'.........Se guardo Fibo({n})={resultado} en el diccionario')
-
+		print(f'......Calculando Fibo({n})')
+		resultado =  fibo_dinamico(n-1, memo) +  fibo_dinamico(n-2, memo)
+		memo[n] = resultado
+	print(f'.........Se guardo Fibo({n})={resultado} en el diccionario')
 return resultado
 
   
@@ -68,5 +63,5 @@ print(f'El numero Fibo({n}) = {num_fibo_n}')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDIwNzUyMTFdfQ==
+eyJoaXN0b3J5IjpbMTY2MjkwMDEwM119
 -->
