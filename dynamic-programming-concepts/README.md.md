@@ -1,6 +1,6 @@
-Programacion Dinamica
+# Programación Dinámica
 
-Tecnica para optimizar problemas con una subestructura optima.
+Técnica para optimizar problemas que tienen la característica de contar con una **subestructura optima**.
 
 Básicamente estamos optimizando problemas mediante una optimización de los problemas mas pequeños que componen el problema más grande en cuestión.
 
@@ -21,5 +21,5 @@ En el código de python se puede notar cómo se optimiza la solución de fibonac
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTAxNTI1NzBdfQ==
+eyJoaXN0b3J5IjpbLTIwNzAzNDExODBdfQ==
 -->
