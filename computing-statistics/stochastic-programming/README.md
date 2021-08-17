@@ -1,4 +1,3 @@
-
 La programación estocástica es el uso de probabilidades a la hora de plantear la solución del problema en el que estamos trabajando, en otras palabras, usamos programación estocástica en la solución de problemas no deterministas.
 
 ## Conceptos estadísticos
@@ -37,11 +36,6 @@ es una mentira en la que se cree que debido a que un suceso independiente extrem
 Regresión a la Media.
 Señala que después de un evento aleatorio extremo, el siguiente evento probablemente será menos extremo.
 
-
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE1ODA3MDQ3MjEsNTA4NTI2Mzk1XX0=
 -->

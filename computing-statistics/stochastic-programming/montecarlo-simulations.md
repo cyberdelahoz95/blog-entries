@@ -60,8 +60,6 @@ if __name__ == '__main__':
     main(tamano_mano, intentos)
 ```
 
-> Written with [StackEdit](https://stackedit.io/).
-
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTkzMDQzMzYzM119
 -->

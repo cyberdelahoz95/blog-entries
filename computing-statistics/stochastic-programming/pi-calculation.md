@@ -73,8 +73,6 @@ if __name__ == '__main__':
     estimar_pi(0.01, 1000)
 ```
 
-> Written with [StackEdit](https://stackedit.io/).
-
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTQ3MDEyODc2M119
 -->
