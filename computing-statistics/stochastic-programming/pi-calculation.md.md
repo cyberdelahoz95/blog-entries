@@ -1,4 +1,3 @@
-
 Convertiremos mediante simulación de montecarlo la obteción de pi (solución determinística) en una solución estocástica.
 
 Inicialmente se parte del conocimiento de las fórmulas matemáticas del área de un cuadrado y de un círculo.
@@ -15,9 +14,9 @@ Este acercamiento nos permite tener la proporción de agujas afuera del círculo
 
 agujas en cuadrado = agujas fuera del circulo
 
-agujas en circulo / agujas en cuadrado  = area circulo / area cuadrado
+agujas en circulo / agujas en cuadrado = area circulo / area cuadrado
 
-area circulo = (4 * agujas circulo) = agujas cuadrado.
+area circulo = (4 \* agujas circulo) = agujas cuadrado.
 
 Suponiendo que el centro del circulo y del cuadrado están en la coordenada 0,0
 los alfileres deberán caer dentro del rango de -1 y 1 para x y -1 & 1 para y (recordemos que el radio del circulo es 1).
@@ -28,7 +27,54 @@ calcularemos las hipotenusas que se forman de los triangulos producto de los val
 
 Hipotenusas mayores a 1, significará que el alfiler o aguja cayó por fuera del circulo, hipotenusas menores o iguales a 1 son alfileres o agujas que caen dentro del circulo.
 
+```python
+import math
+# incluir estadisticas
+from estadisticas import desviacion_estandar, media
+
+
+def aventar_agujas(numero_de_agujas):
+    adentro_del_circulo = 0
+
+    for _ in range(numero_de_agujas):
+        x = random.random() * random.choice([-1, 1])
+        y = random.random() * random.choice([-1, 1])
+        distancia_desde_el_centro = math.sqrt(x**2 + y**2)
+
+        if distancia_desde_el_centro <= 1:
+            adentro_del_circulo += 1
+
+    return (4 * adentro_del_circulo) / numero_de_agujas
+
+
+def estimacion(numero_de_agujas, numero_de_intentos):
+    estimados = []
+    for _ in range(numero_de_intentos):
+        estimacion_pi = aventar_agujas(numero_de_agujas)
+        estimados.append(estimacion_pi)
+
+    media_estimados = media(estimados)
+    sigma = desviacion_estandar(estimados)
+    return (media_estimados, sigma)
+
+
+def estimar_pi(precision, numero_de_intentos):
+    numero_de_agujas = 1000
+    sigma = precision
+
+    while sigma >= precision/1.96:  # intervalo de confianza
+        media, sigma = estimacion(numero_de_agujas, numero_de_intentos)
+        numero_de_agujas *= 2
+
+    return media
+
+
+if __name__ == '__main__':
+    estimar_pi(0.01, 1000)
+```
+
 > Written with [StackEdit](https://stackedit.io/).
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTQ3MDEyODc2M119
 -->
