@@ -16,7 +16,6 @@ la forma no determinista de implementar este programa es entender cuales son los
 En este contexto, recordemos que la probabilidad es la medida de la certidumbre asociada a un evento o suceso futuro y suele expresarse como un numero entre 0 y 1.
 
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE0NTcyMDY4NTIsMTg5NTc2OTkxMCwyMT
 M1NjQyNTkzXX0=
