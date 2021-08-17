@@ -20,11 +20,14 @@ Número de Fibonacci
 
  
 Al implementar fibonacci siguiendo el proceso estricto de la formula, se obtiene un algoritmo ineficiente porque el crecimiento computacional (complejidad) es exponencial.
-Sin embargo para poder obtener una respuesta favorable y correcta, es obligatorio realizar el mismo proceso repetitivo. 
-Entonces debido a que es un problema que se soluciona realizando una tarea de forma repetitiva, es posible aplicar dynamic programming para optimizar el resultado. Una de las estrategias de este tipo de programación es la Memoization.
+
+Sin embargo, para poder obtener una respuesta favorable y correcta, es obligatorio realizar el mismo proceso repetitivo.
+
+Entonces, debido a que es un problema que se soluciona realizando una tarea de forma repetitiva, es posible aplicar dynamic programming para optimizar el resultado, se aplica al utilizar memoización en nuestra solución.
+
 En el código de python se puede notar cómo se optimiza la solución de fibonacci.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODExNzgxN119
+eyJoaXN0b3J5IjpbNjQ5MzQxNTI1XX0=
 -->
