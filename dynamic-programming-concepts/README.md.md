@@ -25,9 +25,7 @@ Sin embargo, para poder obtener una respuesta favorable y correcta, es obligator
 
 Entonces, debido a que es un problema que se soluciona realizando una tarea de forma repetitiva, es posible aplicar dynamic programming para optimizar el resultado, se aplica al utilizar memoización en nuestra solución.
 
-En el código de python se puede notar cómo se optimiza la solución de fibonacci.
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5MzQxNTI1XX0=
+eyJoaXN0b3J5IjpbLTExNjE3MjMyODNdfQ==
 -->
