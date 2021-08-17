@@ -18,7 +18,6 @@ Número de Fibonacci
 
     F(n) = F(n-1) + F(n-2)
 
- 
 Al implementar fibonacci siguiendo el proceso estricto de la formula, se obtiene un algoritmo ineficiente porque el crecimiento computacional (complejidad) es exponencial.
 
 Sin embargo, para poder obtener una respuesta favorable y correcta, es obligatorio realizar el mismo proceso repetitivo.
@@ -26,46 +25,30 @@ Sin embargo, para poder obtener una respuesta favorable y correcta, es obligator
 Entonces, debido a que es un problema que se soluciona realizando una tarea de forma repetitiva, es posible aplicar dynamic programming para optimizar el resultado, se aplica al utilizar memoización en nuestra solución.
 
 ```python
-mport sys
+import sys
 
 def fibonacci_recursive(n):
-
-if n == 0 or n == 1:
-
-return 1
-
-return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
+    if n == 0 or n == 1:
+        return 1
+    return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
 
 def fibonacci_with_memo(n, memo={}):
-
-if n == 0 or n == 1:
-
-return 1
-
-try:
-
-return memo[n]
-
-except KeyError:
-
-resultado = fibonacci_with_memo(n - 1, memo) + fibonacci_with_memo(n - 2, memo)
-
-memo[n] = resultado
-
-return resultado
+    if n == 0 or n == 1:
+        return 1
+    try:
+        return memo[n]
+    except KeyError:
+        resultado = fibonacci_with_memo(n - 1, memo) + fibonacci_with_memo(n - 2, memo)
+        memo[n] = resultado
+    return resultado
 
 if __name__ == "__main__":
-
-sys.setrecursionlimit(10002)
-
-n = int(input("Escoger número: "))
-
-result = fibonacci_with_memo(n)
-
-print(result)
+    sys.setrecursionlimit(10002)
+    n = int(input("Escoger número: "))
+    result = fibonacci_with_memo(n)
+    print(result)
 
 ```
-
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE4NjM5NDk2OF19
