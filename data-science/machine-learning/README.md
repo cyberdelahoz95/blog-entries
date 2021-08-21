@@ -14,8 +14,11 @@ Por ejemplo representar colores con RGB.
 
 El reto en esta fase es definir cuales son los aspectos relevantes para el algoritmos y cuales no.
 
-Se debe intentar varias veces, que valores se tienen qu incluir y que valores se deben obviar o dejar por fuera. Siguiendo el principio de GIGO (garbage in, garbage out) es importante seleccionar bien los datos e incluso depurar datos encontrados.
+Se debe intentar varias veces, qué valores se tienen que incluir y que valores se deben obviar o dejar por fuera. Siguiendo el principio de GIGO (garbage in, garbage out) es importante seleccionar bien los datos e incluso depurar datos encontrados.
+
+## Distancia entre vectores
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTg5OTUzNCwxNjg3Nzg0MzQ0LDEwMz
-I5MjU1MThdfQ==
+eyJoaXN0b3J5IjpbLTEyMzc5NDEzMzgsMTY4Nzc4NDM0NCwxMD
+MyOTI1NTE4XX0=
 -->
