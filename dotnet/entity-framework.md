@@ -42,8 +42,9 @@ namespace  my_project.Models
 Podemos notar varios detalles, 
 
  - Estamos utilizando la dependencia **System.ComponentModel.DataAnnotations.Schema** la cual nos permite agregar anotaciones que facilitan el mapping que EF realiza al interpretar nuestra clase. No siempre las anotaciones son necesarias, por ejemplo, por convención EF realizará mapping de los fields de la tabla en la base de datos, que tengan el mismo nombre que nuestras propiedades en la clase.
- - En este caso, debido a que los nombres de los campos en la base de datos no son exactamente iguales a nuestras propiedades, nos valemos de data annotations para configurar el comportamiento deseado. En este caso, la anotación Column nos ayuda con ese propósito. La anotación Table, hace lo propio al indicar el mapping de los registros contra esta clase Product.
+ - En este caso, debido a que los nombres de los campos en la base de datos no son exactamente iguales a nuestras propiedades, nos valemos de data annotations para configurar el comportamiento deseado. En este caso, la anotación Column nos ayuda con ese propósito. La anotación Table, hace lo propio al indicar que esta clase contendrá la representación de registros de l
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzUzNjg4NjksNjE2OTU2NTkzXX0=
+eyJoaXN0b3J5IjpbLTE1MTM2MDU2ODMsLTE0NzUzNjg4NjksNj
+E2OTU2NTkzXX0=
 -->
