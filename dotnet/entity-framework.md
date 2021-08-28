@@ -9,6 +9,12 @@ la forma más sencilla de instalar el paquete en nuestro proyecto es usando la i
 
 Por supuesto, en este caso usamos la versión 5.0.7, sin embargo, ten en cuenta que probablemente al leer este post, ya exista una versión más reciente y sólo es cuestión de cambiarla en el comando.
 
+Podrás verificar que se instaló correctamente si revisas el archivo .csproj de tu proyecto y deberás encontrar una línea similar a esta.
+```xml
+<PackageReference  Include="Npgsql.EntityFrameworkCore.PostgreSQL"  Version="5.0.7" />
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDkyNTMwN119
+eyJoaXN0b3J5IjpbODM0NDE5ODddfQ==
 -->
