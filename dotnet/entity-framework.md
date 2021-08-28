@@ -24,30 +24,23 @@ namespace  vitrineo_backend.Models
 {
 	[Table("products")]
 	public  class  Product
+	{
+		[Column("id")]
+		public  int Id { get; set; }
 
-{
+		[Column("title")]
+		public  string Title { get; set; }
 
-[Column("id")]
+		[Column("description")]
+		public  string Description { get; set; }
 
-public  int Id { get; set; }
-
-[Column("title")]
-
-public  string Title { get; set; }
-
-[Column("description")]
-
-public  string Description { get; set; }
-
-[Column("price")]
-
-public  int Price { get; set; }
-
-}
-
+		[Column("price")]
+		public  int Price { get; set; }
+	}
 }
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTk0ODE5Miw2MTY5NTY1OTNdfQ==
+eyJoaXN0b3J5IjpbMjI4MDU5NTY2LDYxNjk1NjU5M119
 -->
