@@ -22,8 +22,8 @@ using  System.ComponentModel.DataAnnotations.Schema;
 
 namespace  vitrineo_backend.Models
 {
-[Table("products")]
-public  class  Product
+	[Table("products")]
+	public  class  Product
 
 {
 
@@ -49,5 +49,5 @@ public  int Price { get; set; }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODkzNDk0NCw2MTY5NTY1OTNdfQ==
+eyJoaXN0b3J5IjpbLTM1MTk0ODE5Miw2MTY5NTY1OTNdfQ==
 -->
