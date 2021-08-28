@@ -20,7 +20,7 @@ Por ejemplo, si en la base de datos tenemos una tabla que se llama **products** 
 using  System;
 using  System.ComponentModel.DataAnnotations.Schema;
 
-namespace  vitrineo_backend.Models
+namespace  my_project.Models
 {
 	[Table("products")]
 	public  class  Product
@@ -39,8 +39,10 @@ namespace  vitrineo_backend.Models
 	}
 }
 ```
+Podemos notar varios detalles, 
 
+ - Estamo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4MDU5NTY2LDYxNjk1NjU5M119
+eyJoaXN0b3J5IjpbLTExNDY1NTgzMTgsNjE2OTU2NTkzXX0=
 -->
