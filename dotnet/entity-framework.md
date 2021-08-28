@@ -14,8 +14,9 @@ Podrás verificar que se instaló correctamente si revisas el archivo .csproj de
 <PackageReference  Include="Npgsql.EntityFrameworkCore.PostgreSQL"  Version="5.0.7" />
 ```
 ## Creación de clases schema
-Las clases schema, nos sirven para indicarle a EF cómo hará el mapeo o por decirlo así, la traducción de los datos d
+Las clases schema, nos sirven para indicarle a EF cómo hará el mapeo o por decirlo así, la traducción de los datos de una tabla a un objeto en nuestra lógica del backend. Generalmente estás clases siguen muy de cerca la estructura de campo de la tabla que representan en la base de datos.
+Por ejemplo, si en la base de datos tenemos una tabla que se llama **products** que contiene los registros de productos vendidos en una tienda, muy
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTY2NzE1MSw2MTY5NTY1OTNdfQ==
+eyJoaXN0b3J5IjpbMTYzMjI3NTI1MCw2MTY5NTY1OTNdfQ==
 -->
