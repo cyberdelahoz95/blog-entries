@@ -3,9 +3,12 @@ Entity framework es una capa de acceso a datos que se utiliza en aplicaciones .N
 Existe una gran variedad de módulos o paquetes .Net que utilizan los estándares de Entity Framework para implementar una capa de acceso a diferentes motores de base de datos.
 En este breve post, utilizaremos una implementación de una capa de acceso al motor PostgreSql.
 ## Instalación de paquete
+la forma más sencilla de instalar el paquete en nuestro proyecto es usando la instrucción
 
+    dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL --version 5.0.7
 
+Por supuesto, en este caso usamos la versión 5.0.7, sin embargo, ten en cuenta que probablemente al leer este post, ya exista una versión más reciente y sólo es cuestión de cambiarla en el comando.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzI2NjM5Ml19
+eyJoaXN0b3J5IjpbMTA5NDkyNTMwN119
 -->
