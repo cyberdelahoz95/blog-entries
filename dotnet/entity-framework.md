@@ -43,9 +43,11 @@ Podemos notar varios detalles,
 
  - Estamos utilizando la dependencia **System.ComponentModel.DataAnnotations.Schema** la cual nos permite agregar anotaciones que facilitan el mapping que EF realiza al interpretar nuestra clase. No siempre las anotaciones son necesarias, por ejemplo, por convención EF realizará mapping de los fields de la tabla en la base de datos, que tengan el mismo nombre que nuestras propiedades en la clase.
  - En este caso, debido a que los nombres de los campos en la base de datos no son exactamente iguales a nuestras propiedades, nos valemos de data annotations para configurar el comportamiento deseado. En este caso, la anotación Column nos ayuda con ese propósito. La anotación Table, hace lo propio al indicar que esta clase contendrá la representación de registros de la tabla products.
- - 
+
+## Creación de clase contextual de acceso a datos
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYxMTI4NzY5LDE0MjE2ODMwNTQsLTE0Nz
-UzNjg4NjksNjE2OTU2NTkzXX0=
+eyJoaXN0b3J5IjpbMTIxODg4NTEyNywxNDIxNjgzMDU0LC0xND
+c1MzY4ODY5LDYxNjk1NjU5M119
 -->
