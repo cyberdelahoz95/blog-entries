@@ -15,8 +15,39 @@ Podrás verificar que se instaló correctamente si revisas el archivo .csproj de
 ```
 ## Creación de clases schema
 Las clases schema, nos sirven para indicarle a EF cómo hará el mapeo o por decirlo así, la traducción de los datos de una tabla a un objeto en nuestra lógica del backend. Generalmente estás clases siguen muy de cerca la estructura de campo de la tabla que representan en la base de datos.
-Por ejemplo, si en la base de datos tenemos una tabla que se llama **products** que contiene los registros de productos vendidos en una tienda, muy
+Por ejemplo, si en la base de datos tenemos una tabla que se llama **products** que contiene los registros de productos vendidos en una tienda, muy probablemente tendremos una clase schema con un nombre similar y la siguiente definición
+```c#
+using  System;
+using  System.ComponentModel.DataAnnotations.Schema;
+
+namespace  vitrineo_backend.Models
+{
+[Table("products")]
+public  class  Product
+
+{
+
+[Column("id")]
+
+public  int Id { get; set; }
+
+[Column("title")]
+
+public  string Title { get; set; }
+
+[Column("description")]
+
+public  string Description { get; set; }
+
+[Column("price")]
+
+public  int Price { get; set; }
+
+}
+
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjI3NTI1MCw2MTY5NTY1OTNdfQ==
+eyJoaXN0b3J5IjpbMTU5ODkzNDk0NCw2MTY5NTY1OTNdfQ==
 -->
