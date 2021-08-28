@@ -41,8 +41,8 @@ namespace  my_project.Models
 ```
 Podemos notar varios detalles, 
 
- - Estamo
+ - Estamos utilizando la dependencia **System.ComponentModel.DataAnnotations.Schema** la cual nos permite agregar anotaciones que facilitan el mapping que EF realiza al interpretar nuestra clase.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY1NTgzMTgsNjE2OTU2NTkzXX0=
+eyJoaXN0b3J5IjpbLTE2MTQ2MTEzMTgsNjE2OTU2NTkzXX0=
 -->
