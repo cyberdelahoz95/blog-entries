@@ -42,8 +42,8 @@ namespace  my_project.Models
 Podemos notar varios detalles, 
 
  - Estamos utilizando la dependencia **System.ComponentModel.DataAnnotations.Schema** la cual nos permite agregar anotaciones que facilitan el mapping que EF realiza al interpretar nuestra clase. No siempre las anotaciones son necesarias, por ejemplo, por convención EF realizará mapping de los fields de la tabla en la base de datos, que tengan el mismo nombre que nuestras propiedades en la clase.
- - En este caso, debido a que los nombres de los cam
+ - En este caso, debido a que los nombres de los campos en la base de datos no son exactamente iguales a nuestras propiedades, nos valemos de data annotations para configurar el comportamiento deseado.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTk4NDMyLDYxNjk1NjU5M119
+eyJoaXN0b3J5IjpbLTEwMDI4NDQ1MCw2MTY5NTY1OTNdfQ==
 -->
