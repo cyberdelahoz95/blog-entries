@@ -13,9 +13,9 @@ Podrás verificar que se instaló correctamente si revisas el archivo .csproj de
 ```xml
 <PackageReference  Include="Npgsql.EntityFrameworkCore.PostgreSQL"  Version="5.0.7" />
 ```
-
-
+## Creación de clases schema
+Las clases schema, nos sirven para indicarle a EF cómo hará el mapeo o por decirlo así, la traducción de los datos d
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2OTU2NTkzXX0=
+eyJoaXN0b3J5IjpbLTIzOTY2NzE1MSw2MTY5NTY1OTNdfQ==
 -->
