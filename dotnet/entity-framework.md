@@ -81,10 +81,40 @@ Estamos agregando (AddDbContext) un contexto de base de datos a los servicios di
 Posteriormente, inyectamos a las opciones solicitadas por el constructor de MyContext, la cadena de conexión a la base de datos que en este caso se encuentra en el archivo de configuración de la aplicación, ese archivo JSON se llama appsettings, accedemos a las configuraciones de ese archivo mediante la clase estática Configuration, en este caso el archivo cuenta con una definición para la cadena de conexión, por lo tanto, usamos el método estático GetConnectionString que recibe como parámetros el nombre del atributo en dicho objeton JSON que contiene la cadena de conexión como tal.
 
 ## Usar nuestro contexto de conexión a la base de datos en los controladores.
+El ejemplo de uso de la conexión en un controlador es bastante sencillo.
+```c#
+[ApiController]
+public  class  ProductController : ControllerBase
+{
+	private  MyContext  myDbContext;
 
+	[HttpGet("products")]
+	public  ActionResult<IEnumerable<Product>> GetAll()
+	{
+
+Console.WriteLine($"Can Connect: {myDbContext.Database.CanConnect()}.");
+
+var  products  =  myDbContext.Products;
+
+return  products;
+
+}
+
+  
+
+public  ProductController(DAO  context)
+
+{
+
+myDbContext  =  context;
+
+}
+
+}
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTI3NDIxMDIsMTIxODg4NTEyNywxND
-IxNjgzMDU0LC0xNDc1MzY4ODY5LDYxNjk1NjU5M119
+eyJoaXN0b3J5IjpbMTE1NzU1NzMzOCwxMjE4ODg1MTI3LDE0Mj
+E2ODMwNTQsLTE0NzUzNjg4NjksNjE2OTU2NTkzXX0=
 -->
