@@ -62,9 +62,11 @@ namespace  my_project.Models
 ```
 Notemos qué:
 
- - Nuestra clase hereda de DbContext, esta clase padre proviene de EntityFrameworkCore y contiene implementaicones de métodos que se encargan de la conexión a la base de datos, mapear tables y registros, administrar las conexiones, etc. Es decir, la clase padre DbContext abstrae el trabajo repetitivo de
+ - Nuestra clase hereda de DbContext, esta clase padre proviene de EntityFrameworkCore y contiene implementaicones de métodos que se encargan de la conexión a la base de datos, mapear tables y registros, administrar las conexiones, etc. Es decir, la clase padre DbContext abstrae el trabajo repetitivo relacionado con la base de datos y de esa manera nos enfocamos en nuestra lógica.
+ - Notemos la propiedad Products, esta propiedad tiene varios propósitos.
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDE3OTY2MiwxMjE4ODg1MTI3LDE0Mj
-E2ODMwNTQsLTE0NzUzNjg4NjksNjE2OTU2NTkzXX0=
+eyJoaXN0b3J5IjpbLTE2NDg5MTY0NjIsMTIxODg4NTEyNywxND
+IxNjgzMDU0LC0xNDc1MzY4ODY5LDYxNjk1NjU5M119
 -->
