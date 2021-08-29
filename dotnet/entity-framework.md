@@ -67,8 +67,9 @@ Notemos qué:
 	 - DbSet<Product> es un tipo generic, es decir que para su correcto funcionamiento debemos agregarle como parámetros, una clase modelo, en este caso Product. En caso de que lo queramos, EF nos permite trabajar sobre una base de datos en blanco y EF utilizará lo que hayamos descrito en las clases modelos y a partir de allí crear las tablas. Adicionalmente, al consumir los datos, EF utilizará la clase modelo que pasemos cómo parámetro para crear un objeto de ese tipo por cada registros en la tabla que referenciada en la anotación Table de dicha clase modelo.
 	 - Esta propiedad también contiene una serie de métodos que nos permiten manipular los datos y hacer consultas con facilidad. 
 
-
+## Agregar nuestro servicio de acceso a datos
+Con la clase contextual creada, ya está nuestro servicio listo para ponerse a disposición de los controladores que deseen usarlo. Lo ponemos a disposición de los controladores al agregar el servicio en el archivo Start
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTI0MzM5MCwxMjE4ODg1MTI3LDE0Mj
+eyJoaXN0b3J5IjpbMTczODk3MjI2OCwxMjE4ODg1MTI3LDE0Mj
 E2ODMwNTQsLTE0NzUzNjg4NjksNjE2OTU2NTkzXX0=
 -->
