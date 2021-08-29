@@ -64,9 +64,9 @@ Notemos qué:
 
  - Nuestra clase hereda de DbContext, esta clase padre proviene de EntityFrameworkCore y contiene implementaicones de métodos que se encargan de la conexión a la base de datos, mapear tables y registros, administrar las conexiones, etc. Es decir, la clase padre DbContext abstrae el trabajo repetitivo relacionado con la base de datos y de esa manera nos enfocamos en nuestra lógica.
  - Notemos la propiedad Products, esta propiedad tiene varios propósitos.
-	 - DbSet<> es un tipo generic, es decir que para su correcto funcionamiento debemos agregarle como parámetros, una clase que sirva para de
+	 - DbSet<Product> es un tipo generic, es decir que para su correcto funcionamiento debemos agregarle como parámetros, una clase modelo, en este caso Product.  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA2NTY2ODYsMTIxODg4NTEyNywxND
-IxNjgzMDU0LC0xNDc1MzY4ODY5LDYxNjk1NjU5M119
+eyJoaXN0b3J5IjpbNTkxMTg4MDkzLDEyMTg4ODUxMjcsMTQyMT
+Y4MzA1NCwtMTQ3NTM2ODg2OSw2MTY5NTY1OTNdfQ==
 -->
