@@ -52,20 +52,19 @@ using  Microsoft.EntityFrameworkCore;
 
 namespace  my_project.Models
 {
-	public  class  DAO : DbContext
+	public  class  MyContext : DbContext
 	{
-public  DbSet<Product> Products { get; set; }
+		public  DbSet<Product> Products { get; set; }
 
-  
-
-public  DAO(DbContextOptions<DAO> options) : base(options) { }
-
-}
-
+		public  MyContext(DbContextOptions<MyContext> options) : base(options) { }
+	}
 }
 ```
+Notemos qué:
+
+ - List item
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDM1ODM5OCwxMjE4ODg1MTI3LDE0Mj
-E2ODMwNTQsLTE0NzUzNjg4NjksNjE2OTU2NTkzXX0=
+eyJoaXN0b3J5IjpbMzg2NTA1MTQ1LDEyMTg4ODUxMjcsMTQyMT
+Y4MzA1NCwtMTQ3NTM2ODg2OSw2MTY5NTY1OTNdfQ==
 -->
