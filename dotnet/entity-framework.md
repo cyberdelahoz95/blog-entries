@@ -68,8 +68,24 @@ Notemos qué:
 	 - Esta propiedad también contiene una serie de métodos que nos permiten manipular los datos y hacer consultas con facilidad. 
 
 ## Agregar nuestro servicio de acceso a datos
-Con la clase contextual creada, ya está nuestro servicio listo para ponerse a disposición de los controladores que deseen usarlo. Lo ponemos a disposición de los controladores al agregar el servicio en el archivo Start
+Con la clase contextual creada, ya está nuestro servicio listo para ponerse a disposición de los controladores que deseen usarlo. Lo ponemos a disposición de los controladores al agregar el servicio en la clase Startup en el archivo Startup.cs
+Nos ubicaremos sólo en el método ConfigureServices de dicha clase.
+```c#
+// This method gets called by the runtime. Use this method to add services to the container.
+public  void  ConfigureServices(IServiceCollection  services)
+{
+	services.AddControllers();
+services.AddDbContext<DAO>(options =>
+
+options.UseNpgsql(Configuration.GetConnectionString("DAO"))
+
+);
+
+  
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODk3MjI2OCwxMjE4ODg1MTI3LDE0Mj
+eyJoaXN0b3J5IjpbMTU4MzY5OTA4OSwxMjE4ODg1MTI3LDE0Mj
 E2ODMwNTQsLTE0NzUzNjg4NjksNjE2OTU2NTkzXX0=
 -->
