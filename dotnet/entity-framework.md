@@ -45,9 +45,9 @@ Podemos notar varios detalles,
  - En este caso, debido a que los nombres de los campos en la base de datos no son exactamente iguales a nuestras propiedades, nos valemos de data annotations para configurar el comportamiento deseado. En este caso, la anotación Column nos ayuda con ese propósito. La anotación Table, hace lo propio al indicar que esta clase contendrá la representación de registros de la tabla products.
 
 ## Creación de clase contextual de acceso a datos
-Una vez que hayamos instalado nuestro paquete para acceder al motor de base de datos deseado, y posteriormente, implementar nuestros modelos, procedemos a crear una clase que servirá como contexto 
+Una vez que hayamos instalado nuestro paquete para acceder al motor de base de datos deseado, y posteriormente, implementar nuestros modelos, procedemos a crear una clase que servirá como contexto, podemos pensar en esta clase como el plug o conector que realizará el contacto con la base de datos como tal. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTcxOTQ0NiwxMjE4ODg1MTI3LDE0Mj
-E2ODMwNTQsLTE0NzUzNjg4NjksNjE2OTU2NTkzXX0=
+eyJoaXN0b3J5IjpbNjc0NjkwNTU4LDEyMTg4ODUxMjcsMTQyMT
+Y4MzA1NCwtMTQ3NTM2ODg2OSw2MTY5NTY1OTNdfQ==
 -->
