@@ -71,15 +71,14 @@ Notemos qué:
 Con la clase contextual creada, ya está nuestro servicio listo para ponerse a disposición de los controladores que deseen usarlo. Lo ponemos a disposición de los controladores al agregar el servicio en la clase Startup en el archivo Startup.cs
 Nos ubicaremos sólo en el método ConfigureServices de dicha clase.
 ```c#
-// This method gets called by the runtime. Use this method to add services to the container.
 public  void  ConfigureServices(IServiceCollection  services)
 {
-	services.AddControllers();
+	// otros servicios son agregados
 	services.AddDbContext<MyContext>(options => options.UseNpgsql(Configuration.GetConnectionString("MyContext")));
 }
 ```
-
+Estamos agregando un contexto de base de datos a los servicios disponibles en nuestra aplicación. En este punto podemos notar que es posible agregar varios co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDQ2MDEzNywxMjE4ODg1MTI3LDE0Mj
-E2ODMwNTQsLTE0NzUzNjg4NjksNjE2OTU2NTkzXX0=
+eyJoaXN0b3J5IjpbLTE0MTE3NTg0MTIsMTIxODg4NTEyNywxND
+IxNjgzMDU0LC0xNDc1MzY4ODY5LDYxNjk1NjU5M119
 -->
