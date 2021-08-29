@@ -75,11 +75,11 @@ Nos ubicaremos sólo en el método ConfigureServices de dicha clase.
 public  void  ConfigureServices(IServiceCollection  services)
 {
 	services.AddControllers();
-	services.AddDbContext<MyContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DAO")));
-
+	services.AddDbContext<MyContext>(options => options.UseNpgsql(Configuration.GetConnectionString("MyContext")));
 }
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTk5NTYyMiwxMjE4ODg1MTI3LDE0Mj
+eyJoaXN0b3J5IjpbMTgwNDQ2MDEzNywxMjE4ODg1MTI3LDE0Mj
 E2ODMwNTQsLTE0NzUzNjg4NjksNjE2OTU2NTkzXX0=
 -->
