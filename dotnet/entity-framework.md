@@ -78,9 +78,11 @@ public  void  ConfigureServices(IServiceCollection  services)
 }
 ```
 Estamos agregando (AddDbContext) un contexto de base de datos a los servicios disponibles en nuestra aplicación. En este punto podemos notar que es posible agregar varios contextos, en otras palabras, podemos conectarnos a varias bases de datos, incluso diferentes en tipos de motores de db. En este caso, definimos que el contexto es de tipo MyContext.
-Posteriormente, inyectamos a las opciones solicitadas por el constructor de MyContext, la cadena de conexión a la base de datos que en este caso se encuentra en el archivo de configuración de la aplicación .net, ese archivo JSON se llama appsettings, accedemos a las configuraciones de ese archivo mediante la clase estática Configuration, en este caso si el archivo cuenta con una definición para la cadena de conexión, usamos el método estático GetConnectionString que recibe como parámetros el nombre del atributo en dicho objeton JSON que 
+Posteriormente, inyectamos a las opciones solicitadas por el constructor de MyContext, la cadena de conexión a la base de datos que en este caso se encuentra en el archivo de configuración de la aplicación, ese archivo JSON se llama appsettings, accedemos a las configuraciones de ese archivo mediante la clase estática Configuration, en este caso el archivo cuenta con una definición para la cadena de conexión, por lo tanto, usamos el método estático GetConnectionString que recibe como parámetros el nombre del atributo en dicho objeton JSON que contiene la cadena de conexión como tal.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MjY4MzE1NiwxMjE4ODg1MTI3LDE0Mj
+eyJoaXN0b3J5IjpbLTk1MTYyMTU5OCwxMjE4ODg1MTI3LDE0Mj
 E2ODMwNTQsLTE0NzUzNjg4NjksNjE2OTU2NTkzXX0=
 -->
