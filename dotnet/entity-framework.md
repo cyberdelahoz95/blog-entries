@@ -91,30 +91,20 @@ public  class  ProductController : ControllerBase
 	[HttpGet("products")]
 	public  ActionResult<IEnumerable<Product>> GetAll()
 	{
-
-Console.WriteLine($"Can Connect: {myDbContext.Database.CanConnect()}.");
-
-var  products  =  myDbContext.Products;
-
-return  products;
-
-}
+		var  products  =  myDbContext.Products;
+		return  products;
+	}
 
   
-
-public  ProductController(DAO  context)
-
-{
-
-myDbContext  =  context;
-
-}
-
+	public  ProductController(MyContext  context)
+	{
+		myDbContext  =  context;
+	}
 }
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NzU1NzMzOCwxMjE4ODg1MTI3LDE0Mj
+eyJoaXN0b3J5IjpbMTUwMDY0MzUzOCwxMjE4ODg1MTI3LDE0Mj
 E2ODMwNTQsLTE0NzUzNjg4NjksNjE2OTU2NTkzXX0=
 -->
