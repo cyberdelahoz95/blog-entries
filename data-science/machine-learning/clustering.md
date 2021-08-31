@@ -15,8 +15,8 @@ El resultado de este algoritmo es un dendograma. Esta gráfica señala o describ
  - Qué tipo de criterio se usará para enlazar los puntos. Es decir, a partir de la segunda iteración, deberemos calcular la distancia del cluster que formamos en el primer paso al siguiente punto más cercano. Sin embargo, si notamos bien, un cluster es un grupo de datos, gráficamente sería un grupo de coordenadas cartesianas, entonces nos preguntamos, de este grupo de coordenadas, ¿cuál será la que usarémos como punto de referencia a partir del cual calcular la distancia? a eso nos referimos al decir, "'¿qué tipo de criterio se usará para enlazar los puntos?". Para responder esta pregunta, tenemos 3 opciones de criterio.
 	 - Single Linkage, consiste en tomar los puntos más cercanos.
 	 - Complete Linkage, consiste en tomar los puntos más lejanos
-	 - Average Linkage, consiste en encontrar una coordenada promedio y usar esta coordanda como punto referencia para el cluster, en otras palabras el punto punt
+	 - Average Linkage, consiste en encontrar una coordenada promedio y usar esta coordanda como punto referencia para el cluster, en otras palabras el punto punto representativo a partir del cual se calculará la distancia.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjg5NTcyNDIsNzM3NjM0ODMxXX0=
+eyJoaXN0b3J5IjpbOTQyNjQ5OTA2LDczNzYzNDgzMV19
 -->
