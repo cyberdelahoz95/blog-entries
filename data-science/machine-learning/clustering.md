@@ -8,8 +8,11 @@ En escenarios con grandes cantidades de datos, los algoritmos de agrupamiento ta
 Toma los puntos (elemanto, datos) más cercanos, los agrupa en un cluster. Posteriormente toma este cluster y ubica el punto más cercano a dicho cluster. Finalmente, crea un cluster nuevo formado por el cluster del paso anterior junto con el punto más cercano encontrado en este último paso. Este algoritmo se repite hasta que ya queda un sólo "supercluster" que incorpora a todos los puntos o datos.
 El resultado de este algoritmo es un dendograma. Esta gráfica señala o describe la relación de cada individuo, dato o elemente, con respecto al grupo o supercluster como tal.
 
-### Aspectos que se tienen en cuenta en el agrup
+### Aspectos que se tienen en cuenta en el agrupamiento jerárquico
+
+ 1. Se parte del supuesto de que todos los puntos con los que se inicia, corresponden a un dato único e individual. En otras palabras, **el punto de inicio es un set de datos sin clusterizar o agrupar.**
+ 2. Se debe determinar la forma en la que se calculará la distancia entre los puntos. (e
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Nzc3ODAyNyw3Mzc2MzQ4MzFdfQ==
+eyJoaXN0b3J5IjpbLTI1NTE1NDY3Niw3Mzc2MzQ4MzFdfQ==
 -->
