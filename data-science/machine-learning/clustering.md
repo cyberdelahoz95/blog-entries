@@ -13,8 +13,10 @@ El resultado de este algoritmo es un dendograma. Esta gráfica señala o describ
  - Se parte del supuesto de que todos los puntos con los que se inicia, corresponden a un dato único e individual. En otras palabras, **el punto de inicio es un set de datos sin clusterizar o agrupar.**
  - Se debe determinar la forma en la que se calculará la distancia entre los puntos. (euclidiana, de Manhattan, etc.) El tipo de proyecto o lo que se quiere encontrar, determinará el tipo de cáculo para la distancia que se utilizará.
  - Qué tipo de criterio se usará para enlazar los puntos. Es decir, a partir de la segunda iteración, deberemos calcular la distancia del cluster que formamos en el primer paso al siguiente punto más cercano. Sin embargo, si notamos bien, un cluster es un grupo de datos, gráficamente sería un grupo de coordenadas cartesianas, entonces nos preguntamos, de este grupo de coordenadas, ¿cuál será la que usarémos como punto de referencia a partir del cual calcular la distancia? a eso nos referimos al decir, "'¿qué tipo de criterio se usará para enlazar los puntos?". Para responder esta pregunta, tenemos 3 opciones de criterio.
-	 - Single Linkage, consiste en tomar los puntos más cercano
+	 - Single Linkage, consiste en tomar los puntos más cercanos.
+	 - Complete Linkage, consiste en tomar los puntos más lejanos
+	 - Average Linkage, consiste en encontrar una coordenada promedio y usar esta coordanda como punto referencia para el cluster, en otras palabras el punto punt
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyMzY5NzA0LDczNzYzNDgzMV19
+eyJoaXN0b3J5IjpbLTEyNjg5NTcyNDIsNzM3NjM0ODMxXX0=
 -->
