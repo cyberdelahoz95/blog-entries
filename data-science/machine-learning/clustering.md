@@ -12,8 +12,8 @@ El resultado de este algoritmo es un dendograma. Esta gráfica señala o describ
 
  1. Se parte del supuesto de que todos los puntos con los que se inicia, corresponden a un dato único e individual. En otras palabras, **el punto de inicio es un set de datos sin clusterizar o agrupar.**
  2. Se debe determinar la forma en la que se calculará la distancia entre los puntos. (euclidiana, de Manhattan, etc.) El tipo de proyecto o lo que se quiere encontrar, determinará el tipo de cáculo para la distancia que se utilizará.
- 3. Qué tipo de criterio
+ 3. Qué tipo de criterio se usará para enlazar los puntos. Es decir, a partir de la segunda iteración, deberemos calcular la distancia del cluster que formamos en el primer paso al siguiente punto más cercano. Sin embargo, si notamos bien, un cluster es un grupo de 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDUzNjYzOSw3Mzc2MzQ4MzFdfQ==
+eyJoaXN0b3J5IjpbLTE3ODc1MTc4MDAsNzM3NjM0ODMxXX0=
 -->
