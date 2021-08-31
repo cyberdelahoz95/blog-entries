@@ -4,7 +4,7 @@ If Angular Material needs to be implemented as the UI library for the project, i
 
 Once the previous module is created then other modules of the app only need to import the one created and they will have available all Material components.
 
-```text
+```typescript
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
