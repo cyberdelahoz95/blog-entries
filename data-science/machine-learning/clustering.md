@@ -25,7 +25,8 @@ Por cada k, se seleccionan k puntos del dataset que serán los centroides inicia
 Con el valor de k, es decir,  numero de grupos en los que se agrupará y los k centroides elegidos al azar, se inicia un proceso iterativo. 
 
  1. Se calcula la distancia de cada punto del dataset a los centroides seleccionados.
+ 2. Se asigna cada punto al grupo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ0NzM5NzQyLC01NzAxMzA4ODMsOTQyNj
+eyJoaXN0b3J5IjpbNzEzOTE0MTgyLC01NzAxMzA4ODMsOTQyNj
 Q5OTA2LDczNzYzNDgzMV19
 -->
