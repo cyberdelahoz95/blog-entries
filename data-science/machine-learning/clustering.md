@@ -20,8 +20,9 @@ El resultado de este algoritmo es un dendograma. Esta gráfica señala o describ
 ## Agrupamiento K means
 Este proceso está bajo el contexto de aprendizaje no supervisado. En el agrupamiento K means, se tiene un set de datos del que se desea conocer cómo los features vectores se correlacionan entre sí. Este ejercicio permite entre otra cosas, encontrar grupos de personas con intereses similares, automatizar el control de calidad de granos de café, etc.
 
-El proceso consiste en seleccionar el número de grupos en los que se desea agrupar el dataset. En general, ese valor es arbitrario, sin embargo, para una mayor precisión y efectividad del algoritmo, 
+El proceso consiste en seleccionar el número de grupos en los que se desea agrupar el dataset. En general, ese valor (k) es arbitrario, sin embargo, para una mayor precisión y efectividad del algoritmo, se recomienda seleccionar este número basado en la intuición que viene de entender con claridad la lógica del negocio.
+Con el valor de k, es decir, los grupos en los que se 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3NzI3NjMxLC01NzAxMzA4ODMsOTQyNj
-Q5OTA2LDczNzYzNDgzMV19
+eyJoaXN0b3J5IjpbLTEwMzEyOTcwMywtNTcwMTMwODgzLDk0Mj
+Y0OTkwNiw3Mzc2MzQ4MzFdfQ==
 -->
