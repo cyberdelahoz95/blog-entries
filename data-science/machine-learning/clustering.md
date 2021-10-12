@@ -21,11 +21,11 @@ El resultado de este algoritmo es un dendograma. Esta gráfica señala o describ
 Este proceso está bajo el contexto de aprendizaje no supervisado. En el agrupamiento K means, se tiene un set de datos del que se desea conocer cómo los features vectores se correlacionan entre sí. Este ejercicio permite entre otra cosas, encontrar grupos de personas con intereses similares, automatizar el control de calidad de granos de café, etc.
 
 El proceso consiste en seleccionar el número de grupos en los que se desea agrupar el dataset. En general, ese valor (k) es arbitrario, sin embargo, para una mayor precisión y efectividad del algoritmo, se recomienda seleccionar este número basado en la intuición que viene de entender con claridad la lógica del negocio.
-Por cada k, se seleccionan k puntos del dataset que serán los centroides iniciales. Esta selección de centroides, es arbitraria y sirve nada más que, como punto de partida inicial de la ejecución del algoritmo.
+Por cada k, se seleccionan k puntos del dataset que serán los centroides iniciales. Esta selección de centroides, es arbitraria y sirve nada más que, como punto de partida inicial de la ejecución del algoritmo. Se asume que, cada centroide corresponde a un grupo diferente....
 Con el valor de k, es decir,  numero de grupos en los que se agrupará y los k centroides elegidos al azar, se inicia un proceso iterativo. 
 
  1. Se calcula la distancia de cada punto del dataset a los centroides seleccionados.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDQ4MTgzOSwtNTcwMTMwODgzLDk0Mj
-Y0OTkwNiw3Mzc2MzQ4MzFdfQ==
+eyJoaXN0b3J5IjpbOTQ0NzM5NzQyLC01NzAxMzA4ODMsOTQyNj
+Q5OTA2LDczNzYzNDgzMV19
 -->
