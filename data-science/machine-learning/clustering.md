@@ -17,6 +17,9 @@ El resultado de este algoritmo es un dendograma. Esta gráfica señala o describ
 	 - Complete Linkage, consiste en tomar los puntos más lejanos
 	 - Average Linkage, consiste en encontrar una coordenada promedio y usar esta coordanda como punto referencia para el cluster, en otras palabras el punto punto representativo a partir del cual se calculará la distancia.
 
+## Agrupamiento K means
+Este proceso está bajo el contexto de aprendizaje no supervisado. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyNjQ5OTA2LDczNzYzNDgzMV19
+eyJoaXN0b3J5IjpbLTU3MDEzMDg4Myw5NDI2NDk5MDYsNzM3Nj
+M0ODMxXX0=
 -->
