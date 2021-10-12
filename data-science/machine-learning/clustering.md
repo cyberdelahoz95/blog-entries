@@ -18,8 +18,8 @@ El resultado de este algoritmo es un dendograma. Esta gráfica señala o describ
 	 - Average Linkage, consiste en encontrar una coordenada promedio y usar esta coordanda como punto referencia para el cluster, en otras palabras el punto punto representativo a partir del cual se calculará la distancia.
 
 ## Agrupamiento K means
-Este proceso está bajo el contexto de aprendizaje no supervisado. 
+Este proceso está bajo el contexto de aprendizaje no supervisado. En el agrupamiento K means, se tiene un set de datos del que se desea conocer cómo los features vectores se correlacionan entre sí. Este ejercicio permite entre otra cosas, encontrar grupos de personas con intereses similares, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDEzMDg4Myw5NDI2NDk5MDYsNzM3Nj
-M0ODMxXX0=
+eyJoaXN0b3J5IjpbNzQyMDYyMDUsLTU3MDEzMDg4Myw5NDI2ND
+k5MDYsNzM3NjM0ODMxXX0=
 -->
