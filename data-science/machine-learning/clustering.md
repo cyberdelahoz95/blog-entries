@@ -31,8 +31,8 @@ Con el valor de k, es decir,  numero de grupos en los que se agrupará y los k c
  5. 
 ### Aspectos que se tienen en cuenta en el agrupamiento K means
 Con relación a la selección del valor k. En general, ese valor (k) es arbitrario, sin embargo, para una mayor precisión y efectividad del algoritmo, se recomienda seleccionar este número basado en la intuición que viene de entender con claridad la lógica del negocio.
-Al ser un algoritmo iterativo y que calcula la distancia por cada punto, es computacionalmente costoso. Teniendo en cuenta lo anterior, no se recomienda ejecutar el algoritmo sobre todo el dataset
+Al ser un algoritmo iterativo y que calcula la distancia por cada punto, es computacionalmente costoso. Teniendo en cuenta lo anterior, no se recomienda ejecutar el algoritmo sobre todo el dataset. Tal vez es suficiente utilizar una muestra representativa y por infererencia, hacer una generalización para toda la población.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTE0MTYwNjgsLTU3MDEzMDg4Myw5ND
-I2NDk5MDYsNzM3NjM0ODMxXX0=
+eyJoaXN0b3J5IjpbLTIwOTE5NTc0LC01NzAxMzA4ODMsOTQyNj
+Q5OTA2LDczNzYzNDgzMV19
 -->
