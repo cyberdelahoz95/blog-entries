@@ -26,7 +26,8 @@ Con el valor de k, es decir,  numero de grupos en los que se agrupará y los k c
 
  1. Se calcula la distancia de cada punto del dataset a los centroides seleccionados.
  2. Una vez calculadas las distancias a cada centroide, por cada punto, se toma la distancia más cerca  a un centroide y se asigna dicho punto como parte del grupo al que el centroide pertenece.
+ 3. Teniendo los puntos del dataset, asignados a un grupo, se calcula la media de los 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDg0Njk0OCwtNTcwMTMwODgzLDk0Mj
-Y0OTkwNiw3Mzc2MzQ4MzFdfQ==
+eyJoaXN0b3J5IjpbLTEzODM0NTc2NzgsLTU3MDEzMDg4Myw5ND
+I2NDk5MDYsNzM3NjM0ODMxXX0=
 -->
