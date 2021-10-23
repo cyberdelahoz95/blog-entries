@@ -7,8 +7,9 @@ En este algorito se parte del supuesto de que ya se cuenta con un conjunto de da
 Al recibir un valor o data point del cual no conocemos su etiqueta o clase, determinamos sus vecinos más cercanos y de acuerdo a su cercanía con dichos vecinos, el data point se le asignará una clase o etiqueta.
 En este algoritmo el valor de K corresponde al número de vecinos necesarios para que un vector o data point se le asigna la clase o etiqueta correspondiente a esos vecinos.
 Si un data point no llega exactamente a tener K vecinos, entonces se le asigna la clase a la que pertenecen la mayor cantidad de vecinos más cercanos.
-Por ejemplo, si K es igual a 5, con 3 vecinos de una clase es suficiente para que se le asigne dicha clase al data point entran
+Por ejemplo, si K es igual a 5, con 3 vecinos de una clase es suficiente para que se le asigne dicha clase al data point entrante.
+Este algoritmo es computacionalmente costoso, por lo tanto no se recomienda utilizar toda la población de datos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzMTgyMDE5LC01OTA3MDAyODAsMTU1MT
-g0NTQ4NiwxMDkxNDU3MzgyLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTUwNDc4MTY5NSwtNTkwNzAwMjgwLDE1NT
+E4NDU0ODYsMTA5MTQ1NzM4MiwtMjA4ODc0NjYxMl19
 -->
