@@ -3,7 +3,9 @@ Los algoritmos de clasificación son una técnica de aprendizaje supervisado que
 A diferencia de la clusterización o agrupamiento, en la clasificación es importante que conozcamos las etiquetas que el algoritmo asignará a los datos bajo evaluación.
 
 ##   Clasificadores lineales
-Estos tipos de clasificadores se distinguen porque dividen el conjunto de datos con una línea (que puede ser multidimensional dependiendo de la cantidad de  _features_  que hemos utilizado para definir a nuestros datos). Esto genera áreas dentro de nuestro espacio de búsqueda para que cuando coloquemos un nuevo dato podamos clasificarlo fácilmente.
+Los algoritmos que realizan una clasificación lineal, dividen los datos a través de una línea. Esta línea básicamente reprsenta la medida que determina si un data point pertenece a una clase o a otra. 
+La línea func
+Esto genera áreas dentro de nuestro espacio de búsqueda para que cuando coloquemos un nuevo dato podamos clasificarlo fácilmente.
 
 ## K nearest neighbors
 En este algorito se parte del supuesto de que ya se cuenta con un conjunto de datos clasificados, podemos pensar en un plano de coordenadas con un conjunto de datos ubicados en él y dadas las ubicaciones de los mismos, ya sabemos a qué clase pertenecen.
@@ -13,7 +15,7 @@ Si un data point no llega exactamente a tener K vecinos, entonces se le asigna l
 Por ejemplo, si K es igual a 5, con 3 vecinos de una clase es suficiente para que se le asigne dicha clase al data point entrante.
 Este algoritmo es computacionalmente costoso, por lo tanto no se recomienda utilizar toda la población de datos para su ejecución, en vez de eso, se puede utilizar una muestra representativa.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQwNDUwNzEsLTE3MTU2OTQxMjYsLT
-EzNjg2Nzk5NzEsLTU5MDcwMDI4MCwxNTUxODQ1NDg2LDEwOTE0
-NTczODIsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTI4NzY2MjY1OSwtMTcxNTY5NDEyNiwtMT
+M2ODY3OTk3MSwtNTkwNzAwMjgwLDE1NTE4NDU0ODYsMTA5MTQ1
+NzM4MiwtMjA4ODc0NjYxMl19
 -->
