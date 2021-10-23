@@ -5,7 +5,7 @@ A diferencia de la clusterización o agrupamiento, en la clasificación es impor
 ##   Clasificadores lineales
 Los algoritmos que realizan una clasificación lineal, dividen los datos a través de una línea. Esta línea básicamente reprsenta la medida que determina si un data point pertenece a una clase o a otra. 
 La línea funciona como un delimitador de áreas dentro del plano que contiene el data set, de tal manera que al ubicar un punto nuevo, podamos clasificarlo o ubicarlo dentro de una zona o área, que al final del día indicará a qué clase pertenece.
-Cabe recordar que los ejes del plano no siempre se
+Cabe recordar que los ejes del plano no siempre serán 2 (plano bidimensional) pueden ser multiples dimensiones, esto depende de la cantidad de features o características representativas que describen una clase o etiqueta.
 
 ## K nearest neighbors
 En este algorito se parte del supuesto de que ya se cuenta con un conjunto de datos clasificados, podemos pensar en un plano de coordenadas con un conjunto de datos ubicados en él y dadas las ubicaciones de los mismos, ya sabemos a qué clase pertenecen.
@@ -15,7 +15,7 @@ Si un data point no llega exactamente a tener K vecinos, entonces se le asigna l
 Por ejemplo, si K es igual a 5, con 3 vecinos de una clase es suficiente para que se le asigne dicha clase al data point entrante.
 Este algoritmo es computacionalmente costoso, por lo tanto no se recomienda utilizar toda la población de datos para su ejecución, en vez de eso, se puede utilizar una muestra representativa.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTgzNDQzNCwtMTcxNTY5NDEyNiwtMT
-M2ODY3OTk3MSwtNTkwNzAwMjgwLDE1NTE4NDU0ODYsMTA5MTQ1
-NzM4MiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMzQyMTA4NTIzLC0xNzE1Njk0MTI2LC0xMz
+Y4Njc5OTcxLC01OTA3MDAyODAsMTU1MTg0NTQ4NiwxMDkxNDU3
+MzgyLC0yMDg4NzQ2NjEyXX0=
 -->
