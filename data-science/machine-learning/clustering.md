@@ -17,6 +17,21 @@ El resultado de este algoritmo es un dendograma. Esta gráfica señala o describ
 	 - Complete Linkage, consiste en tomar los puntos más lejanos
 	 - Average Linkage, consiste en encontrar una coordenada promedio y usar esta coordanda como punto referencia para el cluster, en otras palabras el punto punto representativo a partir del cual se calculará la distancia.
 
+## Agrupamiento K means
+Este proceso está bajo el contexto de aprendizaje no supervisado. En el agrupamiento K means, se tiene un set de datos del que se desea conocer cómo los features vectores se correlacionan entre sí. Este ejercicio permite entre otra cosas, encontrar grupos de personas con intereses similares, automatizar el control de calidad de granos de café, etc.
+
+El proceso consiste en seleccionar el número de grupos (k) en los que se desea agrupar el dataset. 
+Por cada k, se seleccionan k puntos del dataset que serán los centroides iniciales. Esta selección de centroides, es arbitraria y sirve nada más que, como punto de partida inicial de la ejecución del algoritmo. Se asume que, cada centroide corresponde a un grupo diferente....
+Con el valor de k, es decir,  numero de grupos en los que se agrupará y los k centroides elegidos al azar, se inicia un proceso iterativo. 
+
+ 1. Se calcula la distancia de cada punto del dataset a los centroides seleccionados.
+ 2. Una vez calculadas las distancias a cada centroide, por cada punto, se toma la distancia más cerca  a un centroide y se asigna dicho punto como parte del grupo al que el centroide pertenece.
+ 3. Teniendo los puntos del dataset, asignados a un grupo, se calcula la media de los datos de cada grupo, obtendremos k medias y estas medias serán nuestros nuevos centroides.
+ 4. Repetimos los pasos 1 al 3 hasta que los centroides ya no cambien de una iteración a otra.
+### Aspectos que se tienen en cuenta en el agrupamiento K means
+Con relación a la selección del valor k. En general, ese valor (k) es arbitrario, sin embargo, para una mayor precisión y efectividad del algoritmo, se recomienda seleccionar este número basado en la intuición que viene de entender con claridad la lógica del negocio.
+Al ser un algoritmo iterativo y que calcula la distancia por cada punto, es computacionalmente costoso. Teniendo en cuenta lo anterior, no se recomienda ejecutar el algoritmo sobre todo el dataset. Tal vez es suficiente utilizar una muestra representativa y por infererencia, hacer una generalización para toda la población.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyNjQ5OTA2LDczNzYzNDgzMV19
+eyJoaXN0b3J5IjpbLTQ1Nzc0NjM5NywtMjA5MTk1NzQsLTU3MD
+EzMDg4Myw5NDI2NDk5MDYsNzM3NjM0ODMxXX0=
 -->
