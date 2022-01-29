@@ -5,12 +5,12 @@ RxJS is a library that allows us to handle reactivity all over the app via subsc
 One common class that we can use to implement this functionality is _**BehaviorSubject**_ class
 
 ```typescript
-import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs'; 
-import { Product } from './../../core/models/product.model';
+import { Injectable } from "@angular/core";
+import { BehaviorSubject } from "rxjs";
+import { Product } from "./../../core/models/product.model";
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: "root",
 })
 export class CartService {
   // This value is the dynamic value, we want to react to its changes
@@ -51,9 +51,7 @@ export class HeaderComponent implements OnInit {
 
   constructor(private cartService: CartService) {
     this.total$ = this.cartService.cart$.pipe(
-      map((products) => {
-        return products.length;
-      })
+      map((products) => products.length;)
     );
   }
 
@@ -110,10 +108,9 @@ Consuming the observable in a component
 ### Handling errors in subscriptions
 
 ```typescript
-subscribe(successFunction,
-    error=>{
-    handlingError();
-})
+subscribe(successFunction, (error) => {
+  handlingError();
+});
 ```
 
 We can use the function handlingError to show logs or event store the event or send it to sentry, etc.

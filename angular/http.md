@@ -1,4 +1,29 @@
-# HTTP responses
+# HTTP
+
+## HTTP Requests
+
+Angular provides it´s own module to process http request.
+In order to use it, we must import the module from the app.module.ts file, then from the service or module we plan to use the http module we must import the service HttpClient.
+
+It is important to remember that the http module of angular returns Observable objects, so in order to consume the result of the request we will need to use the method subscribe in order to have access to the data.
+
+```javascript
+  fetchProduct() {
+    this.productsService.getAllProducts().subscribe((products) => {
+      this.products = products;
+    });
+  }
+```
+
+We can easily map the response from a http request by declaring the desired type next to the method name.
+
+```javascript
+  getAllProducts() {
+    return this.http.get<Product[]>(environment.url_api);
+  }
+```
+
+the previous approach can be applied in many scenarios.
 
 ### Typing HTTP Responses
 
@@ -8,9 +33,9 @@ As an example to show how to type HTTP response, let's give our attention to the
 
 ```typescript
 interface User {
-    gender: string,
-    email : string,
-    phone : string,
+  gender: string;
+  email: string;
+  phone: string;
 }
 ```
 
@@ -28,14 +53,13 @@ myFunction(): Observable<User[]>{
 ### Handling errors
 
 ```typescript
-this.http.get()
-    .pipe(
-        retry(3), // try again 3 times
-        catchError(error => {
-            return throwError("mensaje de error")
-        }),
-        //normal flow
-    )
+this.http.get().pipe(
+  retry(3), // try again 3 times
+  catchError((error) => {
+    return throwError("mensaje de error");
+  })
+  //normal flow
+);
 ```
 
 We use retry operator to avoid firing error immediately, instead we try 3 times and in case no success we process to call catchError operator to handle the exception.
@@ -67,28 +91,32 @@ Interceptors are custom services used to add attributes to our HTTP request, lik
 ```typescript
 // auth.interceptor.ts
 export class AuthInterceptor implements HttpInterceptor {
-    intercept(request:HttpRequest<any>, next:HttpHandler):Observable<HttpEvent<any>>{
-        request = request.clone(
-            {
-                setHeaders: {
-                    myToke:'1234'
-                }
-            });
-        return next.handle();
-        }
+  intercept(
+    request: HttpRequest<any>,
+    next: HttpHandler
+  ): Observable<HttpEvent<any>> {
+    request = request.clone({
+      setHeaders: {
+        myToke: "1234",
+      },
+    });
+    return next.handle();
+  }
 }
 ```
 
 ```typescript
 // app.module.ts
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { HTTP_INTERCEPTORS } from "@angular/common/http";
 //import AuthInterceptor
 
-providers: [{
+providers: [
+  {
     provide: HTTP_INTERCEPTORS,
-    useClass:AuthInterceptor,
-    multi:true
-}]
+    useClass: AuthInterceptor,
+    multi: true,
+  },
+];
 ```
 
 Note: If we want to use interceptor to store token, it is better to use _**indexDb**_ to store it rather than _**localStorage**_

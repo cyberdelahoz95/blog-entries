@@ -15,10 +15,15 @@ ng g c my-awesome-component
 ## Component Lifecycle
 
 - constructor
+  - it runs before render and it runs once. Here Angular creates the instance of the component.
+  - We should not run async actions inside this method.
 - ngOnChange
+  - it runs before render. It updates changes in the inputs. It runs as many times as the father changes the inputs.
 - ngOnInit
-  - this method is executed once, it is triggered when the component is rendered, here we can add APIs calls.
-- ngOnCheck
+  - It runs before render. this method is executed once, it is triggered when the component is rendered, here we can add APIs calls. Or consuming a service.
+- ngAfterViewInit
+  - It runs after render. Basically it used to handle (set inputs, fire events, etc.) the component's children.
+  - This method is especially useful when working with directives.
 - ngOnDestroy
   - This method can be used to kill listeners and avoid memory leaks.
 
@@ -68,6 +73,27 @@ It can be created using CLI
 ng g d my-awesome-directive
 ```
 
+Here is an example of a directive
+
+```javascript
+import { Directive, ElementRef, HostListener } from "@angular/core";
+
+@Directive({
+  selector: "[appHighlight]",
+})
+export class HighlightDirective {
+  @HostListener("mouseenter") onMouseEnter() {
+    // do something
+  }
+
+  constructor(element: ElementRef) {
+    element.nativeElement.style.backgroundColor = "red";
+  }
+}
+```
+
+In the code we can see that the directive allow us to manipulate the DOM of the element containing the directive. Also we can attach the directive to events in the DOM
+
 similarly, custom pipes can be created using the CLI
 
 ```bash
@@ -76,7 +102,7 @@ ng g p my-awesome-pipe
 
 ## Services
 
-Angular services are used as data providers to modules and components. Services can be created using the CLI command
+Angular services are used as data providers (get data, set data, subscribe to the data, etc.) to modules and components. Services can be created using the CLI command
 
 ```bash
 ng g s my-awesome-service
@@ -89,6 +115,9 @@ Angular also provides an easy way to inject dependencies and reduce the complexi
 ```javascript
 constructor(private fb: FormBuilder) {}
 ```
+
+As we can see, the dependency is a FormBuilder instance. So the DI engine from Angular will instantiate the attribute and provide it to the component.
+In Angular, the instantiation of the dependency is done using the singleton pattern. In other words, the instance is shared between the components and modules who need the dependency.
 
 ## Lazy Loading
 
@@ -141,28 +170,6 @@ export class AdminGuard implements CanActivate {
   }
 }
 ```
-
-## HTTP Requests
-
-Angular provides it´s own module to process http request. It is important to remember that the http module of angular returns Observable objects, so in order to consume the result of the request we will need to use the method subscribe in order to have access to the data.
-
-```javascript
-  fetchProduct() {
-    this.productsService.getAllProducts().subscribe((products) => {
-      this.products = products;
-    });
-  }
-```
-
-We can easily map the response from a http request by declaring the desired type next to the method name.
-
-```javascript
-  getAllProducts() {
-    return this.http.get<Product[]>(environment.url_api);
-  }
-```
-
-the previous approach can be applied in many scenarios.
 
 ## Partial
 
@@ -218,6 +225,7 @@ Each attribute of the object path represent a short import, the key will be used
 import { SharedModule } from "@shared/shared.module";
 import { MaterialModule } from "@material/material.module";
 ```
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTExNDI0OTYzNjFdfQ==
 -->
