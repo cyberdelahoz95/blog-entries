@@ -2,8 +2,8 @@
 
 ## HTTP Requests
 
-Angular provides it´s own module to process http request.
-In order to use it, we must import the module from the app.module.ts file, then from the service or module we plan to use the http module we must import the service HttpClient.
+Angular provides its own module to process http request.
+In order to use it, we must import the HttpClientModule module from the app.module.ts file, then from the service or module we plan to use the http module we must import the service HttpClient.
 
 It is important to remember that the http module of angular returns Observable objects, so in order to consume the result of the request we will need to use the method subscribe in order to have access to the data.
 
@@ -17,13 +17,42 @@ It is important to remember that the http module of angular returns Observable o
 
 We can easily map the response from a http request by declaring the desired type next to the method name.
 
-```javascript
+```typescript
   getAllProducts() {
     return this.http.get<Product[]>(environment.url_api);
   }
 ```
 
 the previous approach can be applied in many scenarios.
+
+### GET Method
+
+```typescript
+  getProduct(id: string) {
+    return this.http.get<Product>(`${environment.url_api}${id}`);
+  }
+```
+
+### POST Method
+
+```typescript
+export interface Product {
+  id: string;
+  title: string;
+  price: string;
+  images: string[];
+  description: string;
+  category: Category;
+}
+
+export interface CreateProductDTO extends Omit<Product, 'id'. 'category'> {
+  categoryId: number;
+}
+
+  createProduct(body: CreateProductDTO) {
+    return this.http.post<Product>(environment.url_api, body);
+  }
+```
 
 ### Typing HTTP Responses
 
