@@ -128,7 +128,8 @@ myFunction(): Observable<User[]>{
 ```typescript
 this.http.get().pipe(
   retry(3), // try again 3 times
-  catchError((error) => {
+  catchError((error: HttpErrorResponse) => {
+    // error.status HttpStatusCode
     return throwError("mensaje de error");
   })
   //normal flow
