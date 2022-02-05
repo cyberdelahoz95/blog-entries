@@ -54,6 +54,50 @@ export interface CreateProductDTO extends Omit<Product, 'id'. 'category'> {
   }
 ```
 
+### PUT PATCH Methods
+
+```typescript
+export interface UpdateProductDTO extends Partial<CreateProductDTO> {
+}
+
+  updateProduct(id: string, body: UpdateProductDTO) {
+    return this.http.put<Product>(`${environment.url_api}${id}`, data);
+  }
+```
+
+### DELETE Methods
+
+```typescript
+  deleteProduct(id: string) {
+    return this.http.delete<boolean>(`${environment.url_api}${id}`);
+  }
+```
+
+## URL Params
+
+```typescript
+  getProductsByPage(limit: number, offset: number) {
+    return this.http.get<Products[]>(`${environment.url_api}`, {
+      params : { limit, offset }
+    });
+  }
+```
+
+We can also create the params programmatically using the class HttpParams as follows
+
+```typescript
+  getProductsByPage(limit?: number, offset?: number) {
+    let params = new HttpParams();
+    if (limit && offset){
+      params = params.set('limit', limit);
+      params = params.set('offset', offset)
+    }
+    return this.http.get<Products[]>(`${environment.url_api}`, {
+      params
+    });
+  }
+```
+
 ### Typing HTTP Responses
 
 We can use an interface to assign a valid data type to the response coming from an API. This is a good practice to avoid certain type problems.

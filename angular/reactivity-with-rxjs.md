@@ -1,5 +1,18 @@
 # Reactivity with RXjs
 
+## Observables vs Promises
+
+a promise performs a fetch and we can use then method to wait for the response, in recent years we have available the keywords async and await to process the response.
+Observable uses a different approeach, in this case we work witha data stream and then we subscribe to it. As soon as we get new data comming from the stream our subscription is going to be notify and we will have the incoming data available.
+
+By definition, promises are called one time and are resolved once.
+On the other hands, observables allow us to stream data, send data multiple times.
+Observables allow us to cancel them and we can manipulate the data stream using pipes.
+
+Angular uses observable in its core to process http requests, routing, changes in the window, etc.
+
+## RXjs
+
 RxJS is a library that allows us to handle reactivity all over the app via subscription publisher pattern.
 
 One common class that we can use to implement this functionality is _**BehaviorSubject**_ class

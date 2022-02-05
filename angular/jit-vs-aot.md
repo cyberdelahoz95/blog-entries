@@ -37,6 +37,34 @@ How do we make sure that our code is compiled using AOT ?? By making sure that i
 }
 ```
 
+## CORS
+
+In order to avoid the CORS problem, we need to enable a feature in Angular that is going to be enable us performing request from different domains.
+Worth to mention that this setting only works for development mode.
+
+In order to achieve the previous behavior we will need to follow the following steps
+
+1. Create a file in the root directory, the name of the file will be proxy.config.json
+
+```json
+{
+  "/api/*": {
+    "target": "https://example",
+    "secure": true,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
+```
+
+2. we create a new npm command for running the proxy mode
+
+```json
+{
+  "start:proxy": "ng serve --proxy-config ./proxy.config.json"
+}
+```
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE5MTkwOTM2ODNdfQ==
 -->
