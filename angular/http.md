@@ -205,6 +205,8 @@ loginRestAPI(email:string, password: string){
 }
 ```
 
+In recent versions of Angular, it is recommended that we use the command _**ng g interceptor auth**_
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE5NDIyMzIwMjddfQ==
 -->
